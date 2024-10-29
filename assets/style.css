@@ -1,0 +1,48 @@
+*, 
+::after, 
+::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  background-color: transparent;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+/* Customize offcanvas menu */
+.offcanvas{
+  background-color: rgba(255, 255, 255, 0.226); /* semi-transparent background */
+  width: 300px;
+  right: 0;
+}
+
+/* Navbar position customization */
+.navbar-container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+
+
+  
+.colonne{
+  background-color: red;
+}
