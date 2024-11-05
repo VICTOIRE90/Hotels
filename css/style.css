@@ -87,7 +87,7 @@
 .navbar-nav .nav-link {
     margin-right: 30px;
     padding-left: 25px;
-    color: #000;
+    color: var(--dark);
     font-size: 15px;
     text-transform: uppercase;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -97,10 +97,15 @@
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
     background-color: var(--primary);
+    color: #000000;
+}
+
+.navbar{
+    background-color: #ccc;
 }
 
 .text{
-    color: var(--primary);
+    color: #777;
 }
 .image{
     height: 400px;
@@ -466,7 +471,8 @@
 }
 
 .footer .btn.btn-social:hover {
-    color: var(--primary);
+    color: #bfa145;
+    background-color: #fff;
 }
 
 .footer .btn.btn-link {
