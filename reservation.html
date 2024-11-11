@@ -27,9 +27,11 @@
      <!-- Template Stylesheet -->
      <link href="css/style.css" rel="stylesheet">
      
-    <title>A Propos</title>
+    <title>Acceuil</title>
 </head>
 <body>
+
+    <!-- Menu fixé en haut -->
     <nav class="navbar">
         <div class="container navbar-container">
             <!-- Logo -->
@@ -65,122 +67,116 @@
             </div>
         </div>
     </nav>
-            <!-- Page Header Start -->
+
+    <!--Baniere-->
     <div class="container-fluid page-header p-0" style="background-image: url(img/carousel-1.jpg);">
         <div class="container-fluid page-header-inner py-5">
             <div class="container text-center">
-                <h1 class="display-3 text-white mb-3 animated slideInDown">A Propos de nous</h1>
+                <h1 class="display-3 text-white mb-3 animated slideInDown">Reservation</h1>
             </div>
         </div>
     </div>
-            <!-- Page Header End -->
+    <!--fin-->
 
-     <!-- A Propos-->
-     <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5 align-items-center">
-                <div class="col-lg-6">
-                    <h6 class="section-title text-start text-primary text-uppercase">A propos de nous</h6>
-                    <h1 class="mb-4 text-center text-md-start text-lg-start">Bienvenue chez <span class="text-primary text-uppercase">costa rita !</span></h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                    <div class="row g-3 pb-4">
-                        <div class="col-sm-4 wow fadeIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
-                            <div class="border rounded p-1">
-                                <div class="border rounded text-center p-4">
-                                    <i class="fa fa-hotel fa-2x text-primary mb-2"></i>
-                                    <h2 class="mb-1" data-toggle="counter-up">1234</h2>
-                                    <p class="mb-0">Rooms</p>
-                                </div>
-                            </div>
+
+    <!--Formulaire de reservation-->
+    <div class="container-fluid mt-3 px-2 px-md-5">
+        <div class="row g-5 align-items-center">
+            <div class="col-12">
+                <h6 class="section-title text-start text-primary text-uppercase">Reservation</h6>
+                <h1 class="mb-4 text-center text-md-start">Réservez votre <span class="text-primary text-uppercase">Chambre chez nous</span></h1>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-10 col-md-8 col-lg-8 p-3 p-md-5 mb-5 back shadow rounded">
+                <form action="">
+                    <div>
+                        <label for="#" class="mb-3">
+                            <h1 class="fs-5">Remplissez le formulaire:</h1>
+                        </label>
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">Nom</span>
+                        <input type="text" class="form-control" placeholder="Votre nom complet" aria-label="nom" aria-describedby="basic-addon1" required>
+                    </div>
+                    
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">Post-Nom</span>
+                        <input type="text" class="form-control" placeholder="Votre nom complet" aria-label="nom" aria-describedby="basic-addon1" required>
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">Prénom</span>
+                        <input type="text" class="form-control" placeholder="Votre nom complet" aria-label="nom" aria-describedby="basic-addon1" required>
+                    </div>
+
+
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon2">Téléphone</span>
+                        <input type="tel" class="form-control" placeholder="Numéro de téléphone" aria-label="téléphone" aria-describedby="basic-addon2" required>                    
+                    </div>
+    
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon3">E-mail</span>
+                        <input type="email" class="form-control" placeholder="Votre e-mail" aria-label="email" aria-describedby="basic-addon3" required>                    
+                    </div>
+    
+                    <div class="row g-2 mb-3">
+                        <div class="col-6">
+                            <label class="form-label">Adulte</label>
+                            <select class="form-select" aria-label="nombre-adulte">
+                                <option selected>0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
                         </div>
-                        <div class="col-sm-4 wow fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
-                            <div class="border rounded p-1">
-                                <div class="border rounded text-center p-4">
-                                    <i class="fa fa-users-cog fa-2x text-primary mb-2"></i>
-                                    <h2 class="mb-1" data-toggle="counter-up">1234</h2>
-                                    <p class="mb-0">Staffs</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-4 wow fadeIn" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeIn;">
-                            <div class="border rounded p-1">
-                                <div class="border rounded text-center p-4">
-                                    <i class="fa fa-users fa-2x text-primary mb-2"></i>
-                                    <h2 class="mb-1" data-toggle="counter-up">1234</h2>
-                                    <p class="mb-0">Clients</p>
-                                </div>
-                            </div>
+                        <div class="col-6">
+                            <label class="form-label">Enfant</label>
+                            <select class="form-select" aria-label="nombre-enfant">
+                                <option selected>0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
                         </div>
                     </div>
-                    <a class="btn btn-primary py-3 px-5 mt-2" href="">Explorer Plus</a>
-                </div>
-                <div class="col-lg-6">
-                    <div class="row g-3">
-                        <div class="col-6 text-end">
-                            <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.1s" src="img/about-1.jpg" style="margin-top: 25%; visibility: visible; animation-delay: 0.1s; animation-name: zoomIn;">
+    
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">N° de chambre</span>
+                        <select class="form-select" aria-label="numéro-chambre">
+                            <option selected>Select...</option>
+                            <option value="010">010</option>
+                            <option value="203">203</option>
+                            <option value="300">300</option>
+                        </select>
+                    </div>
+    
+                    <div class="row g-2 mb-3">
+                        <div class="col-6">
+                            <label for="dateDebut" class="form-label">Date de début</label>
+                            <input type="date" class="form-control" id="dateDebut" name="dateDebut" required>
                         </div>
-                        <div class="col-6 text-start">
-                            <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s" src="img/about-2.jpg" style="visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;">
-                        </div>
-                        <div class="col-6 text-end">
-                            <img class="img-fluid rounded w-50 wow zoomIn" data-wow-delay="0.5s" src="img/about-3.jpg" style="visibility: visible; animation-delay: 0.5s; animation-name: zoomIn;">
-                        </div>
-                        <div class="col-6 text-start">
-                            <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.7s" src="img/about-4.jpg" style="visibility: visible; animation-delay: 0.7s; animation-name: zoomIn;">
+                        <div class="col-6">
+                            <label for="dateFin" class="form-label">Date de fin</label>
+                            <input type="date" class="form-control" id="dateFin" name="dateFin" required>
                         </div>
                     </div>
-                </div>
+    
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">Commentaires</span>
+                        <textarea class="form-control" placeholder="Ajoutez vos remarques ici..." aria-label="Commentaires"></textarea>
+                    </div>
+    
+                    <div class="col-12 col-lg-3 mt-3 text-center">
+                        <button class="btn btn-primary rounded-3 w-100" type="submit">Réserver</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
-    <!-- fin -->
+    <!--fin-->
 
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
-                <h6 class="section-title text-center text-primary text-uppercase">Nos Services</h6>
-                <h1 class="mb-5">Explorer nos <span class="text-primary text-uppercase">Services</span></h1>
-
-                <div class="row g-4">
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
-                        <a class="service-item rounded" href="">
-                            <div class="service-icon bg-transparent border rounded p-1">
-                                <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
-                                    <i class="fa fa-hotel fa-2x text-primary"></i>
-                                </div>
-                            </div>
-                            <h5 class="mb-3">Chambre &amp; Appartment</h5>
-                            <p class="text-body mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                        </a>
-                    </div>
-            
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-                        <a class="service-item rounded" href="">
-                            <div class="service-icon bg-transparent border rounded p-1">
-                                <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
-                                    <i class="fa fa-utensils fa-2x text-primary"></i>
-                                </div>
-                            </div>
-                            <h5 class="mb-3">Alimentation &amp; Restaurant</h5>
-                            <p class="text-body mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                        </a>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
-                        <a class="service-item rounded" href="">
-                            <div class="service-icon bg-transparent border rounded p-1">
-                                <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
-                                    <i class="fa fa-glass-cheers fa-2x text-primary"></i>
-                                </div>
-                            </div>
-                            <h5 class="mb-3">Événement &amp; fête</h5>
-                            <p class="text-body mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- footer -->
     <div class="container-fluid bg-dark text-light footer wow fadeIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
@@ -222,7 +218,7 @@
 
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
     <!-- fin -->
-
+    
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>

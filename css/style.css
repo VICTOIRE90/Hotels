@@ -115,6 +115,10 @@
     text-align: justify;
 }
 
+.back{
+    background-color: white;
+}
+
 .text-foot{
     color: #AEAEAC;
 }
