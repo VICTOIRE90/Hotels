@@ -31,47 +31,7 @@
 </head>
 <body>
     <!-- Menu fixé en haut -->
-    <nav class="navbar">
-        <div class="container navbar-container">
-            <!-- Logo -->
-            <a class="navbar-brand d-flex justify-content-between" href="index.html">
-                <h1 class="m-0 text text-uppercase">Costa Rita</h1>
-            </a>
-            <!-- Hamburger button (visible sur tous les écrans) -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu">
-                <span class="navbar-toggler-icon navbar-to"></span>
-            </button>
-            <!-- Offcanvas Menu -->
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasMenuLabel">Menu</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="redi.html">Reservation</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">A Propos</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="chambre.html">Chambres</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </nav>
-    <!--fin-->
+    <?php require_once 'elements/navbar.php'; ?>
 
     <!-- Carrousel -->
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
@@ -86,6 +46,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="carousel-item">
                     <img src="assets/img/carousel-2.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
@@ -122,7 +83,7 @@
                             <div class="border rounded p-1">
                                 <div class="border rounded text-center p-4">
                                     <i class="fa fa-hotel fa-2x text-primary mb-2"></i>
-                                    <h2 class="mb-1" data-toggle="counter-up">1234</h2>
+                                    <h2 class="mb-1" data-toggle="counter-up">64</h2>
                                     <p class="mb-0">Rooms</p>
                                 </div>
                             </div>
@@ -131,7 +92,7 @@
                             <div class="border rounded p-1">
                                 <div class="border rounded text-center p-4">
                                     <i class="fa fa-users-cog fa-2x text-primary mb-2"></i>
-                                    <h2 class="mb-1" data-toggle="counter-up">1234</h2>
+                                    <h2 class="mb-1" data-toggle="counter-up">120</h2>
                                     <p class="mb-0">Staffs</p>
                                 </div>
                             </div>
@@ -200,8 +161,8 @@
                             </div>
                             <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
                             <div class="d-flex justify-content-between">
-                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="Details/chambre1.html">Gallerie</a>
-                                <a class="btn btn-sm btn-dark rounded py-2 px-4" href="Details/reserver.html">resever</a>
+                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="Details/chambre1.php">Gallerie</a>
+                                <a class="btn btn-sm btn-dark rounded py-2 px-4" href="Details/reserver.php">resever</a>
                             </div>
                         </div>
                     </div>
@@ -230,8 +191,8 @@
                             </div>
                             <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
                             <div class="d-flex justify-content-between">
-                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="Details/chambre1.html">gallerie</a>
-                                <a class="btn btn-sm btn-dark rounded py-2 px-4" href="Details/reserver.html">reserver</a>
+                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="Details/chambre1.php">gallerie</a>
+                                <a class="btn btn-sm btn-dark rounded py-2 px-4" href="Details/reserver.php">reserver</a>
                             </div>
                         </div>
                     </div>
@@ -260,8 +221,8 @@
                             </div>
                             <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
                             <div class="d-flex justify-content-between">
-                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="Details/chambre1.html">gallerie</a>
-                                <a class="btn btn-sm btn-dark rounded py-2 px-4" href="Details/reserver.html">reserver</a>
+                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="Details/chambre1.php">gallerie</a>
+                                <a class="btn btn-sm btn-dark rounded py-2 px-4" href="Details/reserver.php">reserver</a>
                             </div>
                         </div>
                     </div>
@@ -284,7 +245,7 @@
 
                 <div class="row g-4">
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
-                        <a class="service-item rounded" href="chambre.html">
+                        <a class="service-item rounded" href="chambre.php">
                             <div class="service-icon bg-transparent border rounded p-1">
                                 <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
                                     <i class="fa fa-hotel fa-2x text-primary"></i>
@@ -324,68 +285,14 @@
     </div>
     <!-- fin -->
 
-        <!-- partie contact -->
-       
-        <!-- fin -->
-
     <!-- footer -->
-    <div class="container-fluid bg-dark text-light footer wow fadeIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
-        <div class="container pb-5">
-            <div class="row g-5">
-                <div class="col-md-6 col-12">
-                    <h6 class="section-title text-start text-primary text-uppercase mb-4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Contact</font></font></h6>
-                    <p class="mb-2 text-foot"><i class="fa fa-map-marker-alt me-3"></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1011 Route KIPOPO, Lubumbashi, RD Congo</font></font></p>
-                    <p class="mb-2 text-foot"><i class="fa fa-phone-alt me-3"></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">+243 97 5481 773</font></font></p>
-                    <p class="mb-2 text-foot"><i class="fa fa-envelope me-3"></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">COSTA RITA.com</font></font></p>
-                    <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-12">
-                    <div class="row gy-5 g-4">
-                        <div class="col-md-6">
-                            <h6 class="section-title text-start text-primary text-uppercase mb-4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Services</font></font></h6>
-                            <a class="btn btn-link" href=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Alimentation et restauration</font></font></a>
-                            <a class="btn btn-link" href=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Chambre et Appartement</font></font></a>
-                            <a class="btn btn-link" href=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Événement et fête</font></font></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="copyright">
-                <div class="row">
-                    <div class="col-12 text-center text-md-center mb-3 mb-md-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-                        © </font></font><a class="border-bottom" href="index.html" aria-hidden="true"></i>"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">COSTA RITA</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> , tous droits réservés. 
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+ 
+<?php require_once 'elements/footer.php'; ?>
     <!-- fin -->
 
+    <!-- bouton de retour en haut -->
 
 
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/tempusdominus/js/moment.min.js"></script>
-    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
-    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>    
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
-</body>
-</html>
+
