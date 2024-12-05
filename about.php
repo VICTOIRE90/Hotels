@@ -1,76 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="assets/css/bootstrap.css" rel="stylesheet">
-    
-    
-     <!-- Google Web Fonts -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">  
- 
-     <!-- Icon Font Stylesheet -->
-     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
- 
-     <!-- Libraries Stylesheet -->
-     <link href="lib/animate/animate.min.css" rel="stylesheet">
-     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-     <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
- 
-     <!-- Customized Bootstrap Stylesheet -->
-     <link href="css/bootstrap.min.css" rel="stylesheet">
- 
-     
-     <!-- Template Stylesheet -->
-     <link href="css/style.css" rel="stylesheet">
-     
+
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
     <title>A Propos</title>
 </head>
+
 <body>
-    <nav class="navbar">
-        <div class="container navbar-container">
-            <!-- Logo -->
-            <a class="navbar-brand d-flex justify-content-between" href="index.html">
-                <h1 class="m-0 text text-uppercase">Costa Rita</h1>
-            </a>
-            <!-- Hamburger button (visible sur tous les écrans) -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu">
-                <span class="navbar-toggler-icon navbar-to"></span>
-            </button>
-            <!-- Offcanvas Menu -->
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasMenuLabel">Menu</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="reservation.html">Reservation</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">A Propos</a>
-                        </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="chambre.html">Chambres</a>
-                        </li>
+<?php require_once 'elements/navbar.php'; ?>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </nav>
-            <!-- Page Header Start -->
+    <!-- Page Header Start -->
     <div class="container-fluid page-header p-0" style="background-image: url(img/carousel-2.jpg);">
         <div class="container-fluid page-header-inner py-5">
             <div class="container text-center">
@@ -78,10 +43,10 @@
             </div>
         </div>
     </div>
-            <!-- Page Header End -->
+    <!-- Page Header End -->
 
-     <!-- A Propos-->
-     <div class="container-xxl py-5">
+    <!-- A Propos-->
+    <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6">
@@ -117,7 +82,7 @@
                             </div>
                         </div>
                     </div>
-                    <a class="btn btn-primary py-3 px-5 mt-2" href="">Explorer Plus</a>
+                    <a class="btn btn-primary py-3 px-5 mt-2" href="contact.php">Explorer Plus</a>
                 </div>
                 <div class="col-lg-6">
                     <div class="row g-3">
@@ -158,7 +123,7 @@
                             <p class="text-body mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
                         </a>
                     </div>
-            
+
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
                         <a class="service-item rounded" href="">
                             <div class="service-icon bg-transparent border rounded p-1">
@@ -186,4 +151,4 @@
             </div>
         </div>
     </div>
-<?php include 'elements/footer.php'; ?>
+    <?php include 'elements/footer.php'; ?>

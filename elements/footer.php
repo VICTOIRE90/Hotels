@@ -44,7 +44,7 @@
                                 <font style="vertical-align: inherit;">Alimentation et restauration</font>
                             </font>
                         </a>
-                        <a class="btn btn-link" href="">
+                        <a class="btn btn-link" href="chambre.php">
                             <font style="vertical-align: inherit;">
                                 <font style="vertical-align: inherit;">Chambre et Appartement</font>
                             </font>
@@ -65,10 +65,9 @@
             <div class="row">
                 <div class="col-12 text-center text-md-center mb-3 mb-md-0">
                     <font style="vertical-align: inherit;">
-                        <font style="vertical-align: inherit;">
-                            © </font>
-                    </font><a class="border-bottom" href="index.html" aria-hidden="true"></i>"><font style="vertical-align: inherit;">
-                            <font style="vertical-align: inherit;">COSTA RITA</font>
+                        
+                    </font><a class="border-bottom" href="index.php" aria-hidden="true"><font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">©COSTA RITA</font>
                         </font></a>
                     <font style="vertical-align: inherit;">
                         <font style="vertical-align: inherit;"> , tous droits réservés.

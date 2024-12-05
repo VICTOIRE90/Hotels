@@ -30,10 +30,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="chambre.php">Chambres</a>
                         </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.php">Contact</a>
-                        </li>
+                        
                     </ul>
                 </div>
             </div>
