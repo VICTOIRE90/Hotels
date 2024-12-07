@@ -58,7 +58,7 @@
                 echo '<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
                     <div class="room-item shadow rounded overflow-hidden">
                         <div class="position-relative">
-                            <a href=""><img class="img-fluid" src="' . $chambre['img'] . '" alt=""></a>
+                            <a href="Details/chambre1.php"><img class="img-fluid" src="' . $chambre['img'] . '" alt=""></a>
                             <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$' . $chambre['prix'] . '/Night</small>
                         </div>
                         <div class="p-4 mt-2">
@@ -81,7 +81,7 @@
                             </div>
                             <p class="text-body mb-3">' . $chambre['description'] . '</p>
                             <div class="d-flex justify-content-between">
-                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="chambre1.php">Gallerie</a>
+                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="Details/chambre1.php">Gallerie</a>
                                 <a class="btn btn-sm btn-dark rounded py-2 px-4" href="redi.php">Reserver</a>
                             </div>
                         </div>
