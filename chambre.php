@@ -35,6 +35,9 @@
     <!-- Menu fixé en haut -->
     <?php require_once 'elements/navbar.php'; ?>
 
+
+    
+
     <!--baniere-->
     <div class="container-fluid page-header p-0" style="background-image: url(img/carousel-1.jpg);">
         <div class="container-fluid page-header-inner py-5">
@@ -47,213 +50,54 @@
 
     <!-- partie chambre -->
     <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
-                <h6 class="section-title text-center text-primary text-uppercase">Nos chambres</h6>
-                <h1 class="mb-5">Explorer nos <span class="text-primary text-uppercase">chambres</span></h1>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+        <div class="row g-4">
+            <?php
+            $chambres = json_decode(file_get_contents('data/chambres.json'), true);
+
+            foreach ($chambres as $chambre) {
+                echo '<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
                     <div class="room-item shadow rounded overflow-hidden">
                         <div class="position-relative">
-                            <a href=""><img class="img-fluid" src="img/room-1.jpg" alt=""></a>
-                            <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Night</small>
+                            <a href=""><img class="img-fluid" src="' . $chambre['img'] . '" alt=""></a>
+                            <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$' . $chambre['prix'] . '/Night</small>
                         </div>
                         <div class="p-4 mt-2">
                             <div class="d-flex justify-content-between mb-3">
-                                <h5 class="mb-0">Junior Suite</h5>
-                                <div class="ps-2">
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                </div>
+                                <h5 class="mb-0">' . $chambre['nom'] . '</h5>
+                                <div class="ps-2">';
+                for ($i = 0; $i < 5; $i++) {
+                    if ($i < $chambre['stars']) {
+                        echo '<small class="fa fa-star text-primary"></small>';
+                    } else {
+                        echo '<small class="fa fa-star text-secondary"></small>';
+                    }
+                }
+                echo '          </div>
                             </div>
                             <div class="d-flex mb-3">
-                                <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
-                                <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>' . $chambre['lit'] . ' Bed</small>
+                                <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>' . $chambre['bath'] . ' Bath</small>
                                 <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                             </div>
-                            <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                            <p class="text-body mb-3">' . $chambre['description'] . '</p>
                             <div class="d-flex justify-content-between">
                                 <a class="btn btn-sm btn-primary rounded py-2 px-4" href="chambre1.php">Gallerie</a>
-                                <a class="btn btn-sm btn-dark rounded py-2 px-4" href="redi.php">resever</a>
+                                <a class="btn btn-sm btn-dark rounded py-2 px-4" href="redi.php">Reserver</a>
                             </div>
                         </div>
                     </div>
-                </div>
-
-
-
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-                    <div class="room-item shadow rounded overflow-hidden">
-                        <div class="position-relative">
-                            <img class="img-fluid" src="img/room-2.jpg" alt="">
-                            <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Night</small>
-                        </div>
-                        <div class="p-4 mt-2">
-                            <div class="d-flex justify-content-between mb-3">
-                                <h5 class="mb-0">Executive Suite</h5>
-                                <div class="ps-2">
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                </div>
-                            </div>
-                            <div class="d-flex mb-3">
-                                <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
-                                <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
-                                <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
-                            </div>
-                            <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                            <div class="d-flex justify-content-between">
-                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="chambre1.php">gallerie</a>
-                                <a class="btn btn-sm btn-dark rounded py-2 px-4" href="redi.php">redi</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
-                    <div class="room-item shadow rounded overflow-hidden">
-                        <div class="position-relative">
-                            <img class="img-fluid" src="img/room-3.jpg" alt="">
-                            <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Night</small>
-                        </div>
-                        <div class="p-4 mt-2">
-                            <div class="d-flex justify-content-between mb-3">
-                                <h5 class="mb-0">Super Deluxe</h5>
-                                <div class="ps-2">
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                </div>
-                            </div>
-                            <div class="d-flex mb-3">
-                                <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
-                                <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
-                                <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
-                            </div>
-                            <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                            <div class="d-flex justify-content-between">
-                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="chambre1.php">gallerie</a>
-                                <a class="btn btn-sm btn-dark rounded py-2 px-4" href="redi.php">redi</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
-                    <div class="room-item shadow rounded overflow-hidden">
-                        <div class="position-relative">
-                            <img class="img-fluid" src="img/room-3.jpg" alt="">
-                            <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Night</small>
-                        </div>
-                        <div class="p-4 mt-2">
-                            <div class="d-flex justify-content-between mb-3">
-                                <h5 class="mb-0">Super Deluxe</h5>
-                                <div class="ps-2">
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                </div>
-                            </div>
-                            <div class="d-flex mb-3">
-                                <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
-                                <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
-                                <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
-                            </div>
-                            <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                            <div class="d-flex justify-content-between">
-                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="chambre1.php">gallerie</a>
-                                <a class="btn btn-sm btn-dark rounded py-2 px-4" href="redi.php">redi</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
-                    <div class="room-item shadow rounded overflow-hidden">
-                        <div class="position-relative">
-                            <img class="img-fluid" src="img/room-3.jpg" alt="">
-                            <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Night</small>
-                        </div>
-                        <div class="p-4 mt-2">
-                            <div class="d-flex justify-content-between mb-3">
-                                <h5 class="mb-0">Super Deluxe</h5>
-                                <div class="ps-2">
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                </div>
-                            </div>
-                            <div class="d-flex mb-3">
-                                <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
-                                <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
-                                <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
-                            </div>
-                            <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                            <div class="d-flex justify-content-between">
-                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="chambre1.php">gallerie</a>
-                                <a class="btn btn-sm btn-dark rounded py-2 px-4" href="redi.php">redi</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
-                    <div class="room-item shadow rounded overflow-hidden">
-                        <div class="position-relative">
-                            <img class="img-fluid" src="img/room-3.jpg" alt="">
-                            <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Night</small>
-                        </div>
-                        <div class="p-4 mt-2">
-                            <div class="d-flex justify-content-between mb-3">
-                                <h5 class="mb-0">Super Deluxe</h5>
-                                <div class="ps-2">
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-
-                                </div>
-                            </div>
-                            <div class="d-flex mb-3">
-                                <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
-                                <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
-                                <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
-                            </div>
-                            <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                            <div class="d-flex justify-content-between">
-                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="chambre1.php">gallerie</a>
-                                <a class="btn btn-sm btn-dark rounded py-2 px-4" href="redi.php">redi</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-            </div>
+                </div>';
+            }
+            ?>
         </div>
+    </div>
+    </div>
     </div>
     <!-- fin partie chambre -->
 
     <!-- footer -->
+
+
+
+
     <?php require_once 'elements/footer.php'; ?>

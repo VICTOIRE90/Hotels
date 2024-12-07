@@ -23,15 +23,37 @@ function genererDescription(): string
 $chambres = [];
 for ($i = 1; $i <= 70; $i++) {
     $chambres[] = [
-        "nom" => "Chambre " . $i,
+        "nom" => "Chambre {$i}",
         "numero" => $i,
         "prix" => rand(50, 300), // Prix entre 50 et 300 €
         "lit" => rand(1, 3), // 1 à 3 lits
         "description" => genererDescription(),
         "wifi" => (bool)rand(0, 1), // Wi-Fi disponible ou non
         "stars" => rand(1, 5), // Entre 1 et 5 étoiles
+        "img" => genereLiensImages($imageLinks)
     ];
 }
+
+// Fonction pour récupérer les liens des images
+function genereLiensImages( $imageLinksge): string
+{
+    $listeLiensImages = $imageLinksge;
+    return $listeLiensImages[array_rand($listeLiensImages)];
+}
+
+
+function getImageLinks($directory = '../img') {
+    $imageLinks = [];
+    $files = scandir($directory);
+    foreach ($files as $file) {
+        if (in_array(pathinfo($file, PATHINFO_EXTENSION), ['jpg', 'jpeg', 'png', 'gif']) && strpos($file, 'room') !== false) {
+            $imageLinks[] = $directory . '/' . $file;
+        }
+    }
+    return $imageLinks;
+}
+
+$imageLinks = getImageLinks();
 
 // Conversion en JSON
 $json = json_encode($chambres, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
