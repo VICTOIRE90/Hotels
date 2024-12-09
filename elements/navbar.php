@@ -28,6 +28,10 @@
                         </li>
 
                         <li class="nav-item">
+                            <a class="nav-link" href="restaurant.php">restaurant</a>
+                        </li>
+
+                        <li class="nav-item">
                             <a class="nav-link" href="chambre.php">Chambres</a>
                         </li>
                         

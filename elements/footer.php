@@ -92,6 +92,13 @@
 <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
 <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
+<!-- SweetAlert2 -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<!-- QRCode.js -->
+<script src="https://cdn.jsdelivr.net/npm/qrcode"></script>
+
+
+
 <!-- Template Javascript -->
 <script src="js/main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
