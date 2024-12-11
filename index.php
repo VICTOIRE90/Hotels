@@ -99,7 +99,7 @@ require_once 'elements/navbar.php';
         </div>
     </div>
     <!-- fin -->
-
+     
     <!-- partie chambre -->
     <div class="container-xxl py-5">
         <div class="container">

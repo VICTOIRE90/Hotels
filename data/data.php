@@ -26,7 +26,7 @@ for ($i = 1; $i <= 70; $i++) {
         "nom" => "Chambre {$i}",
         "numero" => $i,
         "prix" => rand(50, 300), // Prix entre 50 et 300 €
-        "lit" => rand(1, 3), // 1 à 3 lits
+        "lit" => 1, // 1 à 3 lits
         "description" => genererDescription(),
         "wifi" => (bool)rand(0, 1), // Wi-Fi disponible ou non
         "stars" => rand(1, 5), // Entre 1 et 5 étoiles
