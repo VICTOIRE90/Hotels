@@ -51,5 +51,5 @@
     }
 
     // Appeler la fonction lorsque la page est chargée
-    document.addEventListener('DOMContentLoaded', detectDeviceAndRedirect);
+    
 </script>
