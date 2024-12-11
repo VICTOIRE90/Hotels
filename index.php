@@ -125,13 +125,7 @@ require_once 'elements/navbar.php';
                                     <div class="d-flex justify-content-between mb-3">
                                         <h5 class="mb-0">' . $chambre['nom'] . '</h5>
                                         <div class="ps-2">';
-                        for ($i = 0; $i < 5; $i++) {
-                            if ($i < $chambre['stars']) {
-                                echo '<small class="fa fa-star text-primary"></small>';
-                            } else {
-                                echo '<small class="fa fa-star text-secondary"></small>';
-                            }
-                        }
+                      
                         echo '          </div>
                                     </div>
                                     <div class="d-flex mb-3">
