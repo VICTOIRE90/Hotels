@@ -1,7 +1,5 @@
 <?php $title = 'Restaurant et Dejeuner'; 
 require_once 'elements/header.php'; ?>
-
-
 <?php require_once 'elements/navbar.php'; ?>
 
 

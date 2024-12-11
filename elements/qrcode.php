@@ -49,7 +49,6 @@
             generateQRCode(whatsappUrl);
         });
     }
-
     // Appeler la fonction lorsque la page est chargée
-    
+
 </script>
