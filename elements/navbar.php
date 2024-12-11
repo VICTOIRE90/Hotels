@@ -21,7 +21,7 @@
                         <a class="nav-link" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="href=" javascript:void(0); onclick="detectDeviceAndRedirect()">Reservation</a>
+                       <a> <buttons class="nav-link" onclick="detectDeviceAndRedirect()">Reservation</buttons></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.php">A Propos</a>

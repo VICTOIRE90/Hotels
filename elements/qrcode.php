@@ -18,7 +18,7 @@
             // Afficher le QR code dans une alerte SweetAlert2
             Swal.fire({
                 title: 'Scanner QR Code',
-                html: `<p>Scannez ce QR Code avec WhatsApp Web :</p>
+                html: `<p>Scannez ce QR Code avec votre telephone :</p>
                        <img src="${url}" alt="QR Code" style="width: 200px; height: 200px;">`,
                 icon: 'info',
                 confirmButtonText: 'Fermer',
