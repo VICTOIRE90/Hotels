@@ -39,19 +39,19 @@ require_once 'elements/header.php'; ?>
 
         <div id="content2" class="content-section">
             <div class="row g-3">
-                <div class="col-12 col-md-6 col-lg-3"><img src="./img/about-2.jpg" alt="Image 5"></div>
-                <div class="col-12 col-md-6 col-lg-3"><img src="./img/about-2.jpg" alt="Image 6"></div>
-                <div class="col-12 col-md-6 col-lg-3"><img src="./img/about-2.jpg" alt="Image 7"></div>
-                <div class="col-12 col-md-6 col-lg-3"><img src="./img/about-2.jpg" alt="Image 8"></div>
+                <div class="col-12 col-md-6 col-lg-3 images"><img src="./img/about-2.jpg" alt="Image 5"></div>
+                <div class="col-12 col-md-6 col-lg-3 images"><img src="./img/about-2.jpg" alt="Image 6"></div>
+                <div class="col-12 col-md-6 col-lg-3 images"><img src="./img/about-2.jpg" alt="Image 7"></div>
+                <div class="col-12 col-md-6 col-lg-3 images"><img src="./img/about-2.jpg" alt="Image 8"></div>
             </div>
         </div>
 
         <div id="content3" class="content-section">
             <div class="row g-3">
-                <div class="col-12 col-md-6 col-lg-3 ms-3"><img src="img/about-3.jpg" alt="Image 9"></div>
-                <div class="col-12 col-md-6 col-lg-3 ms-3"><img src="img/about-3.jpg" alt="Image 10"></div>
-                <div class="col-12 col-md-6 col-lg-3 ms-3"><img src="img/about-3.jpg" alt="Image 11"></div>
-                <div class="col-12 col-md-6 col-lg-3 ms-3"><img src="img/about-3.jpg" alt="Image 12"></div>
+                <div class="col-12 col-md-6 col-lg-3"><img src="img/about-3.jpg" alt="Image 9"></div>
+                <div class="col-12 col-md-6 col-lg-3"><img src="img/about-3.jpg" alt="Image 10"></div>
+                <div class="col-12 col-md-6 col-lg-3"><img src="img/about-3.jpg" alt="Image 11"></div>
+                <div class="col-12 col-md-6 col-lg-3"><img src="img/about-3.jpg" alt="Image 12"></div>
             </div>
         </div>
     </div>

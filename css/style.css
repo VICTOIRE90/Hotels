@@ -115,6 +115,11 @@
 .image{
     height: 400px;
 }
+
+.images{
+    margin-right: 10px;
+}
+
 .texte{
     color: #000000;
     text-align: justify;
