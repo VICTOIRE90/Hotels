@@ -116,10 +116,6 @@
     height: 400px;
 }
 
-.images{
-    margin-right: 10px;
-}
-
 .texte{
     color: #000000;
     text-align: justify;
@@ -136,6 +132,14 @@
 .offcanvas{
     background-color: #ffffffb0;
 }
+
+@media (max-width: 768px) {
+    .btn {
+        font-size: 0.8rem; /* Réduit la taille du texte */
+        padding: 0.4rem 0.8rem; /* Réduit l'espace interne */
+    }
+}
+
 
 @media (max-width: 991.98px) {
     .navbar-dark .navbar-nav .nav-link  {

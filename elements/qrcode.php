@@ -21,10 +21,15 @@
                 html: `<p>Scannez ce QR Code avec votre telephone :</p>
                        <img src="${url}" alt="QR Code" style="width: 200px; height: 200px;">`,
                 icon: 'info',
-                confirmButtonText: 'Fermer',
-            }).then(() => {
-                // Afficher le bouton une fois l'alerte fermée
-                document.getElementById('show-qrcode-btn').style.display = 'inline-block';
+                showCancelButton: true,
+                cancelButtonText: 'Fermer',
+                confirmButtonText: 'Ouvrir WhatsApp',
+                reverseButtons: true
+            }).then((result) => {
+                    if (result.isConfirmed) {
+                        // Rediriger vers WhatsApp si le bouton "WhatsApp" est cliqué
+                        window.location.href = whatsappUrl;
+                    }
             });
         });
     }
@@ -52,3 +57,4 @@
     // Appeler la fonction lorsque la page est chargée
 
 </script>
+

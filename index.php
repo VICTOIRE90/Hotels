@@ -136,7 +136,7 @@ require_once 'elements/navbar.php';
                                     <p class="text-body mb-3">' . $chambre['description'] . '</p>
                                     <div class="d-flex justify-content-between">
                                         <a class="btn btn-sm btn-primary rounded py-2 px-4" href="gallery.php">Gallerie</a>
-                                        <a class="btn btn-sm btn-dark rounded py-2 px-4" href="redi.php">Reserver</a>
+                                        <a class="btn btn-sm btn-dark rounded py-2 px-4" onclick="detectDeviceAndRedirect()">Reserver</a>
                                     </div>
                                 </div>
                             </div>
@@ -171,7 +171,7 @@ require_once 'elements/navbar.php';
                     </div>
             
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-                        <a class="service-item rounded" href="">
+                        <a class="service-item rounded" href="restaurant.php">
                             <div class="service-icon bg-transparent border rounded p-1">
                                 <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
                                     <i class="fa fa-utensils fa-2x text-primary"></i>
@@ -183,7 +183,7 @@ require_once 'elements/navbar.php';
                     </div>
 
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
-                        <a class="service-item rounded" href="">
+                        <a class="service-item rounded" href="salle.php">
                             <div class="service-icon bg-transparent border rounded p-1">
                                 <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
                                     <i class="fa fa-glass-cheers fa-2x text-primary"></i>
