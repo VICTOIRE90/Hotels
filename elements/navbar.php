@@ -21,7 +21,7 @@
                         <a class="nav-link" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                       <a> <buttons class="nav-link" onclick="detectDeviceAndRedirect()">Reservation</buttons></a>
+                       <buttons class="nav-link" onclick="detectDeviceAndRedirect()">Reservation</buttons>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.php">A Propos</a>
