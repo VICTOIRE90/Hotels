@@ -21,7 +21,7 @@ require_once 'elements/navbar.php';
         $chambres = json_decode(file_get_contents('data/chambres.json'), true);
 
         $totalChambres = count($chambres);
-        $chambresPerPage = 12; // Changed from 8 to 5
+        $chambresPerPage = 12; // Nombre de chambres par page
         $totalPages = ceil($totalChambres / $chambresPerPage);
 
         $currentPage = isset($_GET['page']) ? (int)$_GET['page'] : 1;
