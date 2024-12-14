@@ -27,6 +27,7 @@ require_once 'elements/navbar.php';
         $currentPage = isset($_GET['page']) ? (int)$_GET['page'] : 1;
         $startIndex = ($currentPage - 1) * $chambresPerPage;
         $chambresToShow = array_slice($chambres, $startIndex, $chambresPerPage);
+        
 
         foreach ($chambresToShow as $chambre) {
             echo '<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
@@ -49,7 +50,7 @@ require_once 'elements/navbar.php';
                             </div>
                             <p class="text-body mb-3">' . $chambre['description'] . '</p>
                             <div class="d-flex justify-content-between">
-                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="gallery.php">Gallerie</a>
+                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="gallery.php?chambre_id=' . $chambre['numero'] . '">Gallerie</a>
                                 <a class="btn btn-sm btn-dark rounded py-2 px-4" href="javascript:void(0);" onclick="detectDeviceAndRedirect()">Reserver</a>
                             </div>
                         </div>

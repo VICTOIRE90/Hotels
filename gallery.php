@@ -34,6 +34,11 @@ require_once 'elements/navbar.php';
             <img src="img/room-1.jpg" class="w-100 shadow-1-strong rounded mb-4 hover-shadow" alt="Waves at Sea" />
             <img src="img/room-2.jpg" class="w-100 shadow-1-strong rounded mb-4 hover-shadow" alt="Yosemite National Park" />
         </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+            <img src="img/room-1.jpg" class="w-100 shadow-1-strong rounded mb-4 hover-shadow" alt="Waves at Sea" />
+            <img src="img/room-2.jpg" class="w-100 shadow-1-strong rounded mb-4 hover-shadow" alt="Yosemite National Park" />
+        </div>
+        
     </div>
 </div>
 <!-- Gallery -->
