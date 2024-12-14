@@ -20,7 +20,15 @@ require_once 'elements/navbar.php';
         <?php
         $chambres = json_decode(file_get_contents('data/chambres.json'), true);
 
-        foreach ($chambres as $chambre) {
+        $totalChambres = count($chambres);
+        $chambresPerPage = 12; // Changed from 8 to 5
+        $totalPages = ceil($totalChambres / $chambresPerPage);
+
+        $currentPage = isset($_GET['page']) ? (int)$_GET['page'] : 1;
+        $startIndex = ($currentPage - 1) * $chambresPerPage;
+        $chambresToShow = array_slice($chambres, $startIndex, $chambresPerPage);
+
+        foreach ($chambresToShow as $chambre) {
             echo '<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
                     <div class="room-item shadow rounded overflow-hidden">
                         <div class="position-relative">
@@ -53,9 +61,39 @@ require_once 'elements/navbar.php';
 </div>
 </div>
 </div>
+<div class="container">
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+            <?php
+            if ($currentPage > 1) {
+                echo '<li class="page-item">
+                        <a class="page-link" href="?page=' . ($currentPage - 1) . '" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                      </li>';
+            }
+
+            for ($i = 1; $i <= $totalPages; $i++) {
+                echo '<li class="page-item ' . ($i == $currentPage ? 'active' : '') . '">
+                        <a class="page-link" href="?page=' . $i . '">' . $i . '</a>
+                      </li>';
+            }
+
+            if ($currentPage < $totalPages) {
+                echo '<li class="page-item">
+                        <a class="page-link" href="?page=' . ($currentPage + 1) . '" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                      </li>';
+            }
+            ?>
+        </ul>
+    </nav>
+</div>
 <!-- fin partie chambre -->
 
 <!-- footer -->
 
 <?php require_once 'elements/qrcode.php'; ?>
 <?php require_once 'elements/footer.php'; ?>
+<!-- Pagination -->
