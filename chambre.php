@@ -62,6 +62,7 @@ require_once 'elements/navbar.php';
 </div>
 </div>
 </div>
+<!-- Pagination -->  
 <div class="container">
     <nav aria-label="Page navigation example">
         <ul class="pagination justify-content-center">
@@ -94,7 +95,5 @@ require_once 'elements/navbar.php';
 <!-- fin partie chambre -->
 
 <!-- footer -->
-
 <?php require_once 'elements/qrcode.php'; ?>
 <?php require_once 'elements/footer.php'; ?>
-<!-- Pagination -->
