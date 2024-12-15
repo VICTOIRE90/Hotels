@@ -14,35 +14,18 @@ function genererDescription(): string
         "Certaines chambres offrent une vue imprenable sur les paysages environnants.",
         "Les tons apaisants de la décoration contribuent à une ambiance relaxante.",
         "Que ce soit pour affaires ou pour le plaisir, cette chambre répond à vos besoins."
-    
     ];
     return $descriptions[array_rand($descriptions)];
 }
 
-// Génération des chambres
-$chambres = [];
-for ($i = 1; $i <= 70; $i++) {
-    $chambres[] = [
-        "nom" => "Chambre {$i}",
-        "numero" => $i,
-        "prix" => rand(50, 300), // Prix entre 50 et 300 €
-        "lit" => 1, // 1 à 3 lits
-        "description" => genererDescription(),
-        "wifi" => (bool)rand(0, 1), // Wi-Fi disponible ou non
-        "stars" => rand(1, 5), // Entre 1 et 5 étoiles
-        "img" => genereLiensImages($imageLinks)
-    ];
-}
-
 // Fonction pour récupérer les liens des images
-function genereLiensImages( $imageLinksge): string
+function genereLiensImages(array $imageLinks): string
 {
-    $listeLiensImages = $imageLinksge;
-    return $listeLiensImages[array_rand($listeLiensImages)];
+    return $imageLinks[array_rand($imageLinks)];
 }
 
-
-function getImageLinks($directory = '../img') {
+function getImageLinks($directory = '../img'): array
+{
     $imageLinks = [];
     $files = scandir($directory);
     foreach ($files as $file) {
@@ -54,6 +37,21 @@ function getImageLinks($directory = '../img') {
 }
 
 $imageLinks = getImageLinks();
+
+// Génération des chambres
+$chambres = [];
+for ($i = 1; $i <= 70; $i++) {
+    $chambres[] = [
+        "nom" => "Chambre {$i}",
+        "numero" => $i,
+        "prix" => rand(50, 300), // Prix entre 50 et 300 €
+        "lit" => rand(1, 3), // 1 à 3 lits
+        "description" => genererDescription(),
+        "wifi" => (bool)rand(0, 1), // Wi-Fi disponible ou non
+        "stars" => rand(1, 5), // Entre 1 et 5 étoiles
+        "img" => genereLiensImages($imageLinks)
+    ];
+}
 
 // Conversion en JSON
 $json = json_encode($chambres, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);

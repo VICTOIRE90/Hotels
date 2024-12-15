@@ -39,7 +39,7 @@
                                 <font style="vertical-align: inherit;">Services</font>
                             </font>
                         </h6>
-                        <a class="btn btn-link" href="">
+                        <a class="btn btn-link" href="restaurant.php">
                             <font style="vertical-align: inherit;">
                                 <font style="vertical-align: inherit;">Alimentation et restauration</font>
                             </font>
@@ -49,7 +49,7 @@
                                 <font style="vertical-align: inherit;">Chambre et Appartement</font>
                             </font>
                         </a>
-                        <a class="btn btn-link" href="">
+                        <a class="btn btn-link" href="salle.php">
                             <font style="vertical-align: inherit;">
                                 <font style="vertical-align: inherit;">Événement et fête</font>
                             </font>
