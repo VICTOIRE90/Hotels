@@ -2,6 +2,10 @@
 $titre = "Gallery ";
 require_once 'elements/header.php';
 require_once 'elements/navbar.php';
+
+// Read and decode the JSON file
+$jsonData = file_get_contents('data/chambres.json');
+$chambres = json_decode($jsonData, true);
 ?>
 <!--Baniere-->
 <div class="container-fluid page-header p-0" style="background-image: url(img/carousel-1.jpg);">
@@ -14,31 +18,13 @@ require_once 'elements/navbar.php';
 <br>
 <div class="container">
     <div class="row">
-        <div class="col-lg-4 col-md-6 mb-4">
-            <img src="img/room-1.jpg" class="w-100 shadow-1-strong rounded mb-4 hover-shadow" alt="Boat on Calm Water" />
-            <img src="img/room-2.jpg" class="w-100 shadow-1-strong rounded mb-4 hover-shadow" alt="Wintry Mountain Landscape" />
-        </div>
-        <div class="col-lg-4 col-md-6 mb-4">
-            <img src="img/room-3.jpg" class="w-100 shadow-1-strong rounded mb-4 hover-shadow" alt="Mountains in the Clouds" />
-            <img src="img/room-2.jpg" class="w-100 shadow-1-strong rounded mb-4 hover-shadow" alt="Boat on Calm Water" />
-        </div>
-        <div class="col-lg-4 col-md-6 mb-4">
-            <img src="img/room-1.jpg" class="w-100 shadow-1-strong rounded mb-4 hover-shadow" alt="Waves at Sea" />
-            <img src="img/room-2.jpg" class="w-100 shadow-1-strong rounded mb-4 hover-shadow" alt="Yosemite National Park" />
-        </div>
-        <div class="col-lg-4 col-md-6 mb-4">
-            <img src="img/room-1.jpg" class="w-100 shadow-1-strong rounded mb-4 hover-shadow" alt="Waves at Sea" />
-            <img src="img/room-2.jpg" class="w-100 shadow-1-strong rounded mb-4 hover-shadow" alt="Yosemite National Park" />
-        </div>
-        <div class="col-lg-4 col-md-6 mb-4">
-            <img src="img/room-1.jpg" class="w-100 shadow-1-strong rounded mb-4 hover-shadow" alt="Waves at Sea" />
-            <img src="img/room-2.jpg" class="w-100 shadow-1-strong rounded mb-4 hover-shadow" alt="Yosemite National Park" />
-        </div>
-        <div class="col-lg-4 col-md-6 mb-4">
-            <img src="img/room-1.jpg" class="w-100 shadow-1-strong rounded mb-4 hover-shadow" alt="Waves at Sea" />
-            <img src="img/room-2.jpg" class="w-100 shadow-1-strong rounded mb-4 hover-shadow" alt="Yosemite National Park" />
-        </div>
-        
+        <?php foreach ($chambres as $chambre): ?>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <?php foreach ($chambre['images'] as $image): ?>
+                    <img src="<?php echo $image; ?>" class="w-100 shadow-1-strong rounded mb-4 hover-shadow" alt="Room Image" />
+                <?php endforeach; ?>
+            </div>
+        <?php endforeach; ?>
     </div>
 </div>
 <!-- Gallery -->

@@ -2,701 +2,701 @@
     {
         "nom": "Chambre 1",
         "numero": 1,
-        "prix": 131,
-        "lit": 3,
-        "description": "Parfaitement équipée, elle comprend un bureau, un fauteuil et une télévision à écran plat.",
+        "prix": 205,
+        "lit": 1,
+        "description": "Les intérieurs sont décorés avec goût, mélangeant modernité et charme traditionnel.",
         "wifi": true,
-        "stars": 2,
-        "img": "..\\\/img\\\/room-1.jpg"
+        "stars": 4,
+        "img": "..\/img\/room-064.jpg"
     },
     {
         "nom": "Chambre 2",
         "numero": 2,
-        "prix": 178,
+        "prix": 300,
         "lit": 3,
-        "description": "Un espace lumineux grâce à de grandes fenêtres laissant entrer la lumière naturelle.",
+        "description": "Cette chambre offre un cadre idéal pour se détendre après une journée bien remplie.",
         "wifi": false,
-        "stars": 1,
-        "img": "..\\\/img\\\/room-3.jpg"
+        "stars": 3,
+        "img": "..\/img\/room-1.jpg"
     },
     {
         "nom": "Chambre 3",
         "numero": 3,
-        "prix": 182,
+        "prix": 81,
         "lit": 1,
-        "description": "Profitez d'une literie confortable et de linge de haute qualité.",
-        "wifi": false,
-        "stars": 1,
-        "img": "..\\\/img\\\/room-2.jpg"
+        "description": "Les tons apaisants de la décoration contribuent à une ambiance relaxante.",
+        "wifi": true,
+        "stars": 4,
+        "img": "..\/img\/room-184.jpg"
     },
     {
         "nom": "Chambre 4",
         "numero": 4,
-        "prix": 92,
-        "lit": 1,
-        "description": "Que ce soit pour affaires ou pour le plaisir, cette chambre répond à vos besoins.",
+        "prix": 136,
+        "lit": 3,
+        "description": "Les tons apaisants de la décoration contribuent à une ambiance relaxante.",
         "wifi": false,
-        "stars": 5,
-        "img": "..\\\/img\\\/room-3.jpg"
+        "stars": 3,
+        "img": "..\/img\/room-114.jpg"
     },
     {
         "nom": "Chambre 5",
         "numero": 5,
-        "prix": 300,
-        "lit": 3,
-        "description": "Les tons apaisants de la décoration contribuent à une ambiance relaxante.",
+        "prix": 130,
+        "lit": 2,
+        "description": "Certaines chambres offrent une vue imprenable sur les paysages environnants.",
         "wifi": true,
         "stars": 5,
-        "img": "..\\\/img\\\/room-1.jpg"
+        "img": "..\/img\/room-165.jpg"
     },
     {
         "nom": "Chambre 6",
         "numero": 6,
-        "prix": 192,
-        "lit": 1,
-        "description": "Certaines chambres offrent une vue imprenable sur les paysages environnants.",
-        "wifi": true,
-        "stars": 4,
-        "img": "..\\\/img\\\/room-3.jpg"
+        "prix": 226,
+        "lit": 3,
+        "description": "La salle de bain privative est dotée d'articles de toilette gratuits et d'une douche spacieuse.",
+        "wifi": false,
+        "stars": 1,
+        "img": "..\/img\/room-125.jpg"
     },
     {
         "nom": "Chambre 7",
         "numero": 7,
-        "prix": 151,
+        "prix": 259,
         "lit": 2,
-        "description": "Que ce soit pour affaires ou pour le plaisir, cette chambre répond à vos besoins.",
+        "description": "Les intérieurs sont décorés avec goût, mélangeant modernité et charme traditionnel.",
         "wifi": false,
-        "stars": 3,
-        "img": "..\\\/img\\\/room-1.jpg"
+        "stars": 4,
+        "img": "..\/img\/room-196.jpg"
     },
     {
         "nom": "Chambre 8",
         "numero": 8,
-        "prix": 198,
-        "lit": 2,
-        "description": "Cette chambre offre un cadre idéal pour se détendre après une journée bien remplie.",
-        "wifi": false,
-        "stars": 2,
-        "img": "..\\\/img\\\/room-3.jpg"
+        "prix": 241,
+        "lit": 1,
+        "description": "Que ce soit pour affaires ou pour le plaisir, cette chambre répond à vos besoins.",
+        "wifi": true,
+        "stars": 5,
+        "img": "..\/img\/room-138.jpg"
     },
     {
         "nom": "Chambre 9",
         "numero": 9,
-        "prix": 75,
-        "lit": 2,
-        "description": "Un espace lumineux grâce à de grandes fenêtres laissant entrer la lumière naturelle.",
-        "wifi": false,
-        "stars": 2,
-        "img": "..\\\/img\\\/room-1.jpg"
+        "prix": 128,
+        "lit": 3,
+        "description": "Cette chambre offre un cadre idéal pour se détendre après une journée bien remplie.",
+        "wifi": true,
+        "stars": 1,
+        "img": "..\/img\/room-093.jpg"
     },
     {
         "nom": "Chambre 10",
         "numero": 10,
-        "prix": 235,
+        "prix": 298,
         "lit": 2,
-        "description": "Que ce soit pour affaires ou pour le plaisir, cette chambre répond à vos besoins.",
+        "description": "Parfaitement équipée, elle comprend un bureau, un fauteuil et une télévision à écran plat.",
         "wifi": true,
         "stars": 3,
-        "img": "..\\\/img\\\/room-2.jpg"
+        "img": "..\/img\/room-138.jpg"
     },
     {
         "nom": "Chambre 11",
         "numero": 11,
-        "prix": 150,
+        "prix": 121,
         "lit": 3,
-        "description": "Certaines chambres offrent une vue imprenable sur les paysages environnants.",
+        "description": "Un espace lumineux grâce à de grandes fenêtres laissant entrer la lumière naturelle.",
         "wifi": false,
         "stars": 3,
-        "img": "..\\\/img\\\/room-1.jpg"
+        "img": "..\/img\/room-151.jpg"
     },
     {
         "nom": "Chambre 12",
         "numero": 12,
-        "prix": 213,
+        "prix": 255,
         "lit": 3,
-        "description": "Que ce soit pour affaires ou pour le plaisir, cette chambre répond à vos besoins.",
+        "description": "Profitez d'une literie confortable et de linge de haute qualité.",
         "wifi": false,
-        "stars": 2,
-        "img": "..\\\/img\\\/room-3.jpg"
+        "stars": 1,
+        "img": "..\/img\/room-140.jpg"
     },
     {
         "nom": "Chambre 13",
         "numero": 13,
-        "prix": 195,
-        "lit": 1,
-        "description": "Les tons apaisants de la décoration contribuent à une ambiance relaxante.",
+        "prix": 225,
+        "lit": 3,
+        "description": "Profitez d'une literie confortable et de linge de haute qualité.",
         "wifi": true,
-        "stars": 2,
-        "img": "..\\\/img\\\/room-2.jpg"
+        "stars": 5,
+        "img": "..\/img\/room-174.jpg"
     },
     {
         "nom": "Chambre 14",
         "numero": 14,
-        "prix": 285,
-        "lit": 3,
-        "description": "Une connexion Wi-Fi haut débit est disponible pour rester connecté.",
+        "prix": 154,
+        "lit": 2,
+        "description": "Un espace lumineux grâce à de grandes fenêtres laissant entrer la lumière naturelle.",
         "wifi": false,
         "stars": 4,
-        "img": "..\\\/img\\\/room-1.jpg"
+        "img": "..\/img\/room-138.jpg"
     },
     {
         "nom": "Chambre 15",
         "numero": 15,
-        "prix": 225,
+        "prix": 83,
         "lit": 2,
-        "description": "Les tons apaisants de la décoration contribuent à une ambiance relaxante.",
-        "wifi": false,
-        "stars": 1,
-        "img": "..\\\/img\\\/room-2.jpg"
+        "description": "Certaines chambres offrent une vue imprenable sur les paysages environnants.",
+        "wifi": true,
+        "stars": 4,
+        "img": "..\/img\/room-172.jpg"
     },
     {
         "nom": "Chambre 16",
         "numero": 16,
-        "prix": 161,
-        "lit": 3,
+        "prix": 118,
+        "lit": 2,
         "description": "Parfaitement équipée, elle comprend un bureau, un fauteuil et une télévision à écran plat.",
         "wifi": true,
         "stars": 4,
-        "img": "..\\\/img\\\/room-2.jpg"
+        "img": "..\/img\/room-130.jpg"
     },
     {
         "nom": "Chambre 17",
         "numero": 17,
-        "prix": 229,
-        "lit": 1,
-        "description": "Un espace lumineux grâce à de grandes fenêtres laissant entrer la lumière naturelle.",
-        "wifi": true,
-        "stars": 5,
-        "img": "..\\\/img\\\/room-1.jpg"
+        "prix": 128,
+        "lit": 3,
+        "description": "Profitez d'une literie confortable et de linge de haute qualité.",
+        "wifi": false,
+        "stars": 1,
+        "img": "..\/img\/room-110.jpg"
     },
     {
         "nom": "Chambre 18",
         "numero": 18,
-        "prix": 168,
-        "lit": 2,
-        "description": "Que ce soit pour affaires ou pour le plaisir, cette chambre répond à vos besoins.",
+        "prix": 247,
+        "lit": 1,
+        "description": "Les tons apaisants de la décoration contribuent à une ambiance relaxante.",
         "wifi": false,
-        "stars": 3,
-        "img": "..\\\/img\\\/room-2.jpg"
+        "stars": 5,
+        "img": "..\/img\/room-019.jpg"
     },
     {
         "nom": "Chambre 19",
         "numero": 19,
-        "prix": 276,
-        "lit": 2,
-        "description": "Profitez d'une literie confortable et de linge de haute qualité.",
-        "wifi": false,
-        "stars": 1,
-        "img": "..\\\/img\\\/room-1.jpg"
+        "prix": 272,
+        "lit": 3,
+        "description": "Que ce soit pour affaires ou pour le plaisir, cette chambre répond à vos besoins.",
+        "wifi": true,
+        "stars": 3,
+        "img": "..\/img\/room-100.jpg"
     },
     {
         "nom": "Chambre 20",
         "numero": 20,
-        "prix": 199,
+        "prix": 230,
         "lit": 2,
-        "description": "Une connexion Wi-Fi haut débit est disponible pour rester connecté.",
+        "description": "Que ce soit pour affaires ou pour le plaisir, cette chambre répond à vos besoins.",
         "wifi": false,
-        "stars": 5,
-        "img": "..\\\/img\\\/room-3.jpg"
+        "stars": 4,
+        "img": "..\/img\/room-122.jpg"
     },
     {
         "nom": "Chambre 21",
         "numero": 21,
-        "prix": 249,
-        "lit": 3,
-        "description": "Une connexion Wi-Fi haut débit est disponible pour rester connecté.",
+        "prix": 211,
+        "lit": 1,
+        "description": "La salle de bain privative est dotée d'articles de toilette gratuits et d'une douche spacieuse.",
         "wifi": false,
-        "stars": 3,
-        "img": "..\\\/img\\\/room-2.jpg"
+        "stars": 1,
+        "img": "..\/img\/room-095.jpg"
     },
     {
         "nom": "Chambre 22",
         "numero": 22,
-        "prix": 67,
-        "lit": 1,
-        "description": "Que ce soit pour affaires ou pour le plaisir, cette chambre répond à vos besoins.",
+        "prix": 212,
+        "lit": 3,
+        "description": "Une connexion Wi-Fi haut débit est disponible pour rester connecté.",
         "wifi": true,
-        "stars": 3,
-        "img": "..\\\/img\\\/room-3.jpg"
+        "stars": 1,
+        "img": "..\/img\/room-126.jpg"
     },
     {
         "nom": "Chambre 23",
         "numero": 23,
-        "prix": 189,
-        "lit": 3,
-        "description": "Un espace lumineux grâce à de grandes fenêtres laissant entrer la lumière naturelle.",
+        "prix": 118,
+        "lit": 2,
+        "description": "Les intérieurs sont décorés avec goût, mélangeant modernité et charme traditionnel.",
         "wifi": false,
-        "stars": 4,
-        "img": "..\\\/img\\\/room-2.jpg"
+        "stars": 1,
+        "img": "..\/img\/room-139.jpg"
     },
     {
         "nom": "Chambre 24",
         "numero": 24,
-        "prix": 208,
-        "lit": 2,
-        "description": "Un espace lumineux grâce à de grandes fenêtres laissant entrer la lumière naturelle.",
-        "wifi": true,
-        "stars": 1,
-        "img": "..\\\/img\\\/room-2.jpg"
+        "prix": 84,
+        "lit": 3,
+        "description": "Une connexion Wi-Fi haut débit est disponible pour rester connecté.",
+        "wifi": false,
+        "stars": 3,
+        "img": "..\/img\/room-166.jpg"
     },
     {
         "nom": "Chambre 25",
         "numero": 25,
-        "prix": 174,
-        "lit": 3,
-        "description": "Les intérieurs sont décorés avec goût, mélangeant modernité et charme traditionnel.",
-        "wifi": false,
-        "stars": 2,
-        "img": "..\\\/img\\\/room-2.jpg"
+        "prix": 53,
+        "lit": 2,
+        "description": "Profitez d'une literie confortable et de linge de haute qualité.",
+        "wifi": true,
+        "stars": 5,
+        "img": "..\/img\/room-147.jpg"
     },
     {
         "nom": "Chambre 26",
         "numero": 26,
-        "prix": 104,
-        "lit": 2,
-        "description": "Que ce soit pour affaires ou pour le plaisir, cette chambre répond à vos besoins.",
-        "wifi": false,
-        "stars": 1,
-        "img": "..\\\/img\\\/room-2.jpg"
+        "prix": 107,
+        "lit": 3,
+        "description": "Les tons apaisants de la décoration contribuent à une ambiance relaxante.",
+        "wifi": true,
+        "stars": 3,
+        "img": "..\/img\/room-135.jpg"
     },
     {
         "nom": "Chambre 27",
         "numero": 27,
-        "prix": 177,
+        "prix": 194,
         "lit": 1,
-        "description": "Une connexion Wi-Fi haut débit est disponible pour rester connecté.",
-        "wifi": true,
-        "stars": 3,
-        "img": "..\\\/img\\\/room-2.jpg"
+        "description": "Cette chambre offre un cadre idéal pour se détendre après une journée bien remplie.",
+        "wifi": false,
+        "stars": 2,
+        "img": "..\/img\/room-115.jpg"
     },
     {
         "nom": "Chambre 28",
         "numero": 28,
-        "prix": 103,
-        "lit": 2,
-        "description": "Un espace lumineux grâce à de grandes fenêtres laissant entrer la lumière naturelle.",
-        "wifi": false,
-        "stars": 2,
-        "img": "..\\\/img\\\/room-2.jpg"
+        "prix": 142,
+        "lit": 1,
+        "description": "Les tons apaisants de la décoration contribuent à une ambiance relaxante.",
+        "wifi": true,
+        "stars": 1,
+        "img": "..\/img\/room-133.jpg"
     },
     {
         "nom": "Chambre 29",
         "numero": 29,
-        "prix": 180,
+        "prix": 172,
         "lit": 2,
-        "description": "Que ce soit pour affaires ou pour le plaisir, cette chambre répond à vos besoins.",
-        "wifi": true,
+        "description": "Parfaitement équipée, elle comprend un bureau, un fauteuil et une télévision à écran plat.",
+        "wifi": false,
         "stars": 3,
-        "img": "..\\\/img\\\/room-3.jpg"
+        "img": "..\/img\/room-168.jpg"
     },
     {
         "nom": "Chambre 30",
         "numero": 30,
-        "prix": 297,
-        "lit": 2,
-        "description": "Cette chambre offre un cadre idéal pour se détendre après une journée bien remplie.",
+        "prix": 254,
+        "lit": 3,
+        "description": "Certaines chambres offrent une vue imprenable sur les paysages environnants.",
         "wifi": false,
-        "stars": 3,
-        "img": "..\\\/img\\\/room-3.jpg"
+        "stars": 1,
+        "img": "..\/img\/room-170.jpg"
     },
     {
         "nom": "Chambre 31",
         "numero": 31,
-        "prix": 127,
-        "lit": 3,
-        "description": "Les intérieurs sont décorés avec goût, mélangeant modernité et charme traditionnel.",
-        "wifi": false,
-        "stars": 5,
-        "img": "..\\\/img\\\/room-2.jpg"
+        "prix": 245,
+        "lit": 2,
+        "description": "Cette chambre offre un cadre idéal pour se détendre après une journée bien remplie.",
+        "wifi": true,
+        "stars": 4,
+        "img": "..\/img\/room-144.jpg"
     },
     {
         "nom": "Chambre 32",
         "numero": 32,
-        "prix": 146,
-        "lit": 2,
-        "description": "Profitez d'une literie confortable et de linge de haute qualité.",
+        "prix": 236,
+        "lit": 1,
+        "description": "Les intérieurs sont décorés avec goût, mélangeant modernité et charme traditionnel.",
         "wifi": true,
-        "stars": 2,
-        "img": "..\\\/img\\\/room-3.jpg"
+        "stars": 4,
+        "img": "..\/img\/room-116.jpg"
     },
     {
         "nom": "Chambre 33",
         "numero": 33,
-        "prix": 107,
-        "lit": 2,
-        "description": "Profitez d'une literie confortable et de linge de haute qualité.",
-        "wifi": false,
-        "stars": 3,
-        "img": "..\\\/img\\\/room-1.jpg"
+        "prix": 161,
+        "lit": 1,
+        "description": "Que ce soit pour affaires ou pour le plaisir, cette chambre répond à vos besoins.",
+        "wifi": true,
+        "stars": 2,
+        "img": "..\/img\/room-130.jpg"
     },
     {
         "nom": "Chambre 34",
         "numero": 34,
-        "prix": 182,
+        "prix": 103,
         "lit": 2,
-        "description": "Parfaitement équipée, elle comprend un bureau, un fauteuil et une télévision à écran plat.",
-        "wifi": false,
-        "stars": 4,
-        "img": "..\\\/img\\\/room-1.jpg"
+        "description": "Les tons apaisants de la décoration contribuent à une ambiance relaxante.",
+        "wifi": true,
+        "stars": 5,
+        "img": "..\/img\/room-113.jpg"
     },
     {
         "nom": "Chambre 35",
         "numero": 35,
-        "prix": 274,
-        "lit": 1,
-        "description": "Les intérieurs sont décorés avec goût, mélangeant modernité et charme traditionnel.",
+        "prix": 54,
+        "lit": 3,
+        "description": "Les tons apaisants de la décoration contribuent à une ambiance relaxante.",
         "wifi": true,
-        "stars": 3,
-        "img": "..\\\/img\\\/room-1.jpg"
+        "stars": 4,
+        "img": "..\/img\/room-095.jpg"
     },
     {
         "nom": "Chambre 36",
         "numero": 36,
-        "prix": 83,
-        "lit": 2,
-        "description": "Profitez d'une literie confortable et de linge de haute qualité.",
-        "wifi": true,
-        "stars": 3,
-        "img": "..\\\/img\\\/room-1.jpg"
+        "prix": 267,
+        "lit": 3,
+        "description": "La salle de bain privative est dotée d'articles de toilette gratuits et d'une douche spacieuse.",
+        "wifi": false,
+        "stars": 1,
+        "img": "..\/img\/room-063.jpg"
     },
     {
         "nom": "Chambre 37",
         "numero": 37,
-        "prix": 226,
+        "prix": 117,
         "lit": 3,
-        "description": "Cette chambre offre un cadre idéal pour se détendre après une journée bien remplie.",
-        "wifi": false,
+        "description": "Que ce soit pour affaires ou pour le plaisir, cette chambre répond à vos besoins.",
+        "wifi": true,
         "stars": 5,
-        "img": "..\\\/img\\\/room-3.jpg"
+        "img": "..\/img\/room-020.jpg"
     },
     {
         "nom": "Chambre 38",
         "numero": 38,
-        "prix": 168,
+        "prix": 211,
         "lit": 1,
-        "description": "Que ce soit pour affaires ou pour le plaisir, cette chambre répond à vos besoins.",
-        "wifi": true,
-        "stars": 4,
-        "img": "..\\\/img\\\/room-1.jpg"
+        "description": "Une connexion Wi-Fi haut débit est disponible pour rester connecté.",
+        "wifi": false,
+        "stars": 2,
+        "img": "..\/img\/room-152.jpg"
     },
     {
         "nom": "Chambre 39",
         "numero": 39,
-        "prix": 171,
-        "lit": 3,
-        "description": "Une connexion Wi-Fi haut débit est disponible pour rester connecté.",
-        "wifi": false,
-        "stars": 1,
-        "img": "..\\\/img\\\/room-2.jpg"
+        "prix": 101,
+        "lit": 1,
+        "description": "Cette chambre offre un cadre idéal pour se détendre après une journée bien remplie.",
+        "wifi": true,
+        "stars": 2,
+        "img": "..\/img\/room-139.jpg"
     },
     {
         "nom": "Chambre 40",
         "numero": 40,
-        "prix": 183,
+        "prix": 242,
         "lit": 2,
-        "description": "Profitez d'une literie confortable et de linge de haute qualité.",
+        "description": "La salle de bain privative est dotée d'articles de toilette gratuits et d'une douche spacieuse.",
         "wifi": false,
-        "stars": 1,
-        "img": "..\\\/img\\\/room-1.jpg"
+        "stars": 2,
+        "img": "..\/img\/room-118.jpg"
     },
     {
         "nom": "Chambre 41",
         "numero": 41,
-        "prix": 72,
-        "lit": 2,
-        "description": "La salle de bain privative est dotée d'articles de toilette gratuits et d'une douche spacieuse.",
-        "wifi": true,
-        "stars": 3,
-        "img": "..\\\/img\\\/room-2.jpg"
+        "prix": 269,
+        "lit": 1,
+        "description": "Parfaitement équipée, elle comprend un bureau, un fauteuil et une télévision à écran plat.",
+        "wifi": false,
+        "stars": 1,
+        "img": "..\/img\/room-095.jpg"
     },
     {
         "nom": "Chambre 42",
         "numero": 42,
-        "prix": 170,
-        "lit": 1,
-        "description": "Un espace lumineux grâce à de grandes fenêtres laissant entrer la lumière naturelle.",
+        "prix": 200,
+        "lit": 3,
+        "description": "Les tons apaisants de la décoration contribuent à une ambiance relaxante.",
         "wifi": false,
         "stars": 2,
-        "img": "..\\\/img\\\/room-2.jpg"
+        "img": "..\/img\/room-126.jpg"
     },
     {
         "nom": "Chambre 43",
         "numero": 43,
-        "prix": 251,
-        "lit": 3,
-        "description": "Un espace lumineux grâce à de grandes fenêtres laissant entrer la lumière naturelle.",
-        "wifi": true,
-        "stars": 5,
-        "img": "..\\\/img\\\/room-2.jpg"
+        "prix": 66,
+        "lit": 2,
+        "description": "Les tons apaisants de la décoration contribuent à une ambiance relaxante.",
+        "wifi": false,
+        "stars": 4,
+        "img": "..\/img\/room-1.jpg"
     },
     {
         "nom": "Chambre 44",
         "numero": 44,
-        "prix": 192,
-        "lit": 2,
-        "description": "Une connexion Wi-Fi haut débit est disponible pour rester connecté.",
-        "wifi": true,
-        "stars": 5,
-        "img": "..\\\/img\\\/room-3.jpg"
+        "prix": 277,
+        "lit": 3,
+        "description": "Les tons apaisants de la décoration contribuent à une ambiance relaxante.",
+        "wifi": false,
+        "stars": 1,
+        "img": "..\/img\/room-064.jpg"
     },
     {
         "nom": "Chambre 45",
         "numero": 45,
-        "prix": 240,
-        "lit": 3,
-        "description": "Parfaitement équipée, elle comprend un bureau, un fauteuil et une télévision à écran plat.",
-        "wifi": false,
+        "prix": 165,
+        "lit": 1,
+        "description": "Une connexion Wi-Fi haut débit est disponible pour rester connecté.",
+        "wifi": true,
         "stars": 1,
-        "img": "..\\\/img\\\/room-1.jpg"
+        "img": "..\/img\/room-126.jpg"
     },
     {
         "nom": "Chambre 46",
         "numero": 46,
-        "prix": 130,
-        "lit": 1,
-        "description": "Un espace lumineux grâce à de grandes fenêtres laissant entrer la lumière naturelle.",
+        "prix": 188,
+        "lit": 2,
+        "description": "Que ce soit pour affaires ou pour le plaisir, cette chambre répond à vos besoins.",
         "wifi": false,
-        "stars": 2,
-        "img": "..\\\/img\\\/room-3.jpg"
+        "stars": 5,
+        "img": "..\/img\/room-146.jpg"
     },
     {
         "nom": "Chambre 47",
         "numero": 47,
-        "prix": 274,
+        "prix": 94,
         "lit": 3,
-        "description": "Profitez d'une literie confortable et de linge de haute qualité.",
-        "wifi": true,
+        "description": "Un espace lumineux grâce à de grandes fenêtres laissant entrer la lumière naturelle.",
+        "wifi": false,
         "stars": 5,
-        "img": "..\\\/img\\\/room-1.jpg"
+        "img": "..\/img\/room-097.jpg"
     },
     {
         "nom": "Chambre 48",
         "numero": 48,
-        "prix": 259,
+        "prix": 96,
         "lit": 1,
-        "description": "Certaines chambres offrent une vue imprenable sur les paysages environnants.",
+        "description": "La salle de bain privative est dotée d'articles de toilette gratuits et d'une douche spacieuse.",
         "wifi": false,
-        "stars": 4,
-        "img": "..\\\/img\\\/room-1.jpg"
+        "stars": 1,
+        "img": "..\/img\/room-156.jpg"
     },
     {
         "nom": "Chambre 49",
         "numero": 49,
-        "prix": 126,
+        "prix": 268,
         "lit": 2,
-        "description": "Les intérieurs sont décorés avec goût, mélangeant modernité et charme traditionnel.",
+        "description": "Un espace lumineux grâce à de grandes fenêtres laissant entrer la lumière naturelle.",
         "wifi": false,
         "stars": 3,
-        "img": "..\\\/img\\\/room-3.jpg"
+        "img": "..\/img\/room-126.jpg"
     },
     {
         "nom": "Chambre 50",
         "numero": 50,
-        "prix": 249,
+        "prix": 256,
         "lit": 1,
         "description": "Les tons apaisants de la décoration contribuent à une ambiance relaxante.",
         "wifi": false,
-        "stars": 2,
-        "img": "..\\\/img\\\/room-1.jpg"
+        "stars": 5,
+        "img": "..\/img\/room-140.jpg"
     },
     {
         "nom": "Chambre 51",
         "numero": 51,
-        "prix": 64,
-        "lit": 1,
-        "description": "Une connexion Wi-Fi haut débit est disponible pour rester connecté.",
-        "wifi": false,
+        "prix": 264,
+        "lit": 3,
+        "description": "Certaines chambres offrent une vue imprenable sur les paysages environnants.",
+        "wifi": true,
         "stars": 1,
-        "img": "..\\\/img\\\/room-2.jpg"
+        "img": "..\/img\/room-099.jpg"
     },
     {
         "nom": "Chambre 52",
         "numero": 52,
-        "prix": 70,
-        "lit": 2,
-        "description": "Les intérieurs sont décorés avec goût, mélangeant modernité et charme traditionnel.",
+        "prix": 133,
+        "lit": 3,
+        "description": "Certaines chambres offrent une vue imprenable sur les paysages environnants.",
         "wifi": false,
         "stars": 2,
-        "img": "..\\\/img\\\/room-2.jpg"
+        "img": "..\/img\/room-162.jpg"
     },
     {
         "nom": "Chambre 53",
         "numero": 53,
-        "prix": 132,
-        "lit": 3,
-        "description": "Une connexion Wi-Fi haut débit est disponible pour rester connecté.",
-        "wifi": false,
-        "stars": 3,
-        "img": "..\\\/img\\\/room-3.jpg"
+        "prix": 273,
+        "lit": 1,
+        "description": "Certaines chambres offrent une vue imprenable sur les paysages environnants.",
+        "wifi": true,
+        "stars": 5,
+        "img": "..\/img\/room-115.jpg"
     },
     {
         "nom": "Chambre 54",
         "numero": 54,
-        "prix": 152,
+        "prix": 173,
         "lit": 1,
-        "description": "Cette chambre offre un cadre idéal pour se détendre après une journée bien remplie.",
+        "description": "Les intérieurs sont décorés avec goût, mélangeant modernité et charme traditionnel.",
         "wifi": true,
-        "stars": 2,
-        "img": "..\\\/img\\\/room-3.jpg"
+        "stars": 3,
+        "img": "..\/img\/room-1.jpg"
     },
     {
         "nom": "Chambre 55",
         "numero": 55,
-        "prix": 175,
-        "lit": 1,
-        "description": "Un espace lumineux grâce à de grandes fenêtres laissant entrer la lumière naturelle.",
+        "prix": 52,
+        "lit": 2,
+        "description": "La salle de bain privative est dotée d'articles de toilette gratuits et d'une douche spacieuse.",
         "wifi": false,
-        "stars": 4,
-        "img": "..\\\/img\\\/room-2.jpg"
+        "stars": 2,
+        "img": "..\/img\/room-156.jpg"
     },
     {
         "nom": "Chambre 56",
         "numero": 56,
-        "prix": 65,
-        "lit": 2,
-        "description": "Parfaitement équipée, elle comprend un bureau, un fauteuil et une télévision à écran plat.",
+        "prix": 207,
+        "lit": 3,
+        "description": "Que ce soit pour affaires ou pour le plaisir, cette chambre répond à vos besoins.",
         "wifi": true,
-        "stars": 1,
-        "img": "..\\\/img\\\/room-2.jpg"
+        "stars": 2,
+        "img": "..\/img\/room-126.jpg"
     },
     {
         "nom": "Chambre 57",
         "numero": 57,
-        "prix": 246,
-        "lit": 3,
-        "description": "Profitez d'une literie confortable et de linge de haute qualité.",
+        "prix": 162,
+        "lit": 1,
+        "description": "Que ce soit pour affaires ou pour le plaisir, cette chambre répond à vos besoins.",
         "wifi": true,
-        "stars": 2,
-        "img": "..\\\/img\\\/room-1.jpg"
+        "stars": 4,
+        "img": "..\/img\/room-187.jpg"
     },
     {
         "nom": "Chambre 58",
         "numero": 58,
-        "prix": 283,
+        "prix": 186,
         "lit": 1,
-        "description": "Un espace lumineux grâce à de grandes fenêtres laissant entrer la lumière naturelle.",
+        "description": "Certaines chambres offrent une vue imprenable sur les paysages environnants.",
         "wifi": false,
-        "stars": 1,
-        "img": "..\\\/img\\\/room-3.jpg"
+        "stars": 3,
+        "img": "..\/img\/room-117.jpg"
     },
     {
         "nom": "Chambre 59",
         "numero": 59,
-        "prix": 145,
-        "lit": 1,
-        "description": "Les tons apaisants de la décoration contribuent à une ambiance relaxante.",
+        "prix": 106,
+        "lit": 2,
+        "description": "Cette chambre offre un cadre idéal pour se détendre après une journée bien remplie.",
         "wifi": true,
-        "stars": 5,
-        "img": "..\\\/img\\\/room-3.jpg"
+        "stars": 2,
+        "img": "..\/img\/room-145.jpg"
     },
     {
         "nom": "Chambre 60",
         "numero": 60,
-        "prix": 272,
-        "lit": 2,
-        "description": "Les tons apaisants de la décoration contribuent à une ambiance relaxante.",
-        "wifi": true,
-        "stars": 4,
-        "img": "..\\\/img\\\/room-3.jpg"
+        "prix": 244,
+        "lit": 1,
+        "description": "Un espace lumineux grâce à de grandes fenêtres laissant entrer la lumière naturelle.",
+        "wifi": false,
+        "stars": 5,
+        "img": "..\/img\/room-168.jpg"
     },
     {
         "nom": "Chambre 61",
         "numero": 61,
-        "prix": 194,
-        "lit": 1,
-        "description": "Profitez d'une literie confortable et de linge de haute qualité.",
-        "wifi": false,
-        "stars": 2,
-        "img": "..\\\/img\\\/room-1.jpg"
+        "prix": 77,
+        "lit": 3,
+        "description": "La salle de bain privative est dotée d'articles de toilette gratuits et d'une douche spacieuse.",
+        "wifi": true,
+        "stars": 4,
+        "img": "..\/img\/room-008.jpg"
     },
     {
         "nom": "Chambre 62",
         "numero": 62,
-        "prix": 68,
-        "lit": 2,
-        "description": "Les intérieurs sont décorés avec goût, mélangeant modernité et charme traditionnel.",
-        "wifi": true,
-        "stars": 4,
-        "img": "..\\\/img\\\/room-3.jpg"
+        "prix": 208,
+        "lit": 3,
+        "description": "Un espace lumineux grâce à de grandes fenêtres laissant entrer la lumière naturelle.",
+        "wifi": false,
+        "stars": 2,
+        "img": "..\/img\/room-130.jpg"
     },
     {
         "nom": "Chambre 63",
         "numero": 63,
-        "prix": 59,
-        "lit": 3,
-        "description": "Un espace lumineux grâce à de grandes fenêtres laissant entrer la lumière naturelle.",
-        "wifi": true,
+        "prix": 202,
+        "lit": 2,
+        "description": "Une connexion Wi-Fi haut débit est disponible pour rester connecté.",
+        "wifi": false,
         "stars": 3,
-        "img": "..\\\/img\\\/room-3.jpg"
+        "img": "..\/img\/room-133.jpg"
     },
     {
         "nom": "Chambre 64",
         "numero": 64,
-        "prix": 299,
+        "prix": 116,
         "lit": 1,
-        "description": "Un espace lumineux grâce à de grandes fenêtres laissant entrer la lumière naturelle.",
-        "wifi": true,
-        "stars": 4,
-        "img": "..\\\/img\\\/room-3.jpg"
+        "description": "Les tons apaisants de la décoration contribuent à une ambiance relaxante.",
+        "wifi": false,
+        "stars": 2,
+        "img": "..\/img\/room-093.jpg"
     },
     {
         "nom": "Chambre 65",
         "numero": 65,
-        "prix": 176,
+        "prix": 88,
         "lit": 2,
         "description": "Les tons apaisants de la décoration contribuent à une ambiance relaxante.",
-        "wifi": false,
-        "stars": 5,
-        "img": "..\\\/img\\\/room-3.jpg"
+        "wifi": true,
+        "stars": 1,
+        "img": "..\/img\/room-165.jpg"
     },
     {
         "nom": "Chambre 66",
         "numero": 66,
-        "prix": 247,
-        "lit": 1,
-        "description": "Les tons apaisants de la décoration contribuent à une ambiance relaxante.",
+        "prix": 94,
+        "lit": 3,
+        "description": "La salle de bain privative est dotée d'articles de toilette gratuits et d'une douche spacieuse.",
         "wifi": true,
-        "stars": 3,
-        "img": "..\\\/img\\\/room-2.jpg"
+        "stars": 4,
+        "img": "..\/img\/room-130.jpg"
     },
     {
         "nom": "Chambre 67",
         "numero": 67,
-        "prix": 266,
-        "lit": 1,
+        "prix": 282,
+        "lit": 3,
         "description": "Profitez d'une literie confortable et de linge de haute qualité.",
         "wifi": false,
         "stars": 1,
-        "img": "..\\\/img\\\/room-1.jpg"
+        "img": "..\/img\/room-149.jpg"
     },
     {
         "nom": "Chambre 68",
         "numero": 68,
-        "prix": 79,
-        "lit": 3,
-        "description": "La salle de bain privative est dotée d'articles de toilette gratuits et d'une douche spacieuse.",
+        "prix": 198,
+        "lit": 2,
+        "description": "Une connexion Wi-Fi haut débit est disponible pour rester connecté.",
         "wifi": false,
-        "stars": 1,
-        "img": "..\\\/img\\\/room-2.jpg"
+        "stars": 5,
+        "img": "..\/img\/room-020.jpg"
     },
     {
         "nom": "Chambre 69",
         "numero": 69,
-        "prix": 175,
+        "prix": 138,
         "lit": 2,
-        "description": "La salle de bain privative est dotée d'articles de toilette gratuits et d'une douche spacieuse.",
+        "description": "Un espace lumineux grâce à de grandes fenêtres laissant entrer la lumière naturelle.",
         "wifi": true,
-        "stars": 4,
-        "img": "..\\\/img\\\/room-3.jpg"
+        "stars": 5,
+        "img": "..\/img\/room-166.jpg"
     },
     {
         "nom": "Chambre 70",
         "numero": 70,
-        "prix": 151,
-        "lit": 3,
-        "description": "Cette chambre offre un cadre idéal pour se détendre après une journée bien remplie.",
+        "prix": 277,
+        "lit": 2,
+        "description": "Les tons apaisants de la décoration contribuent à une ambiance relaxante.",
         "wifi": false,
-        "stars": 4,
-        "img": "..\\\/img\\\/room-2.jpg"
+        "stars": 3,
+        "img": "..\/img\/room-100.jpg"
     }
 ]
