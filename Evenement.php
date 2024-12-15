@@ -17,7 +17,7 @@ require_once 'elements/navbar.php';
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-6 mt-3">
-                <img src="./img/room-1.jpg" alt="" class="img-fluid" style="width:700px; margin-start: 0;">
+                <img src="./img/room-1.jpg" alt="" class="img-fluid" style="width:700px;">
                 <h3>Une variété de recettes a votre gout</h3>
                 <p class="para">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis laborum soluta doloremque in ratione incidunt. Officiis laboriosam voluptates aliquid vitae modi? Laudantium necessitatibus vero a magni dolores! Molestiae, cum quod.
@@ -41,7 +41,7 @@ require_once 'elements/navbar.php';
                     Ad facilis architecto veritatis blanditiis sit aliquam aut, dolorem odio tenetur cupiditate quos doloribus deleniti incidunt doloremque, voluptates corporis eos? Voluptatem, vel voluptas dignissimos iure a beatae facilis ducimus provident!
                     </p>
 
-                    <img src="./img/room-2.jpg" alt="" class="img-fluid" style="width:700px; margin-start: 0;">
+                    <img src="./img/room-2.jpg" alt="" class="img-fluid" style="width:700px;">
 
                     <p class="para mt-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, tenetur exercitationem vel magni consectetur quod velit? Impedit magni natus porro, qui unde praesentium recusandae reprehenderit beatae sequi, adipisci illo laboriosam?</p>
 
