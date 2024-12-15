@@ -40,7 +40,7 @@
 /*** Button ***/
 .btn {
     font-weight: 500;
-    text-transform: uppercase;
+    text-transform: capitalize;
     transition: .5s;
 }
 
@@ -131,6 +131,10 @@
 
 .offcanvas{
     background-color: #ffffffb0;
+}
+
+.para{
+    text-align: justify;
 }
 
 @media (max-width: 768px) {

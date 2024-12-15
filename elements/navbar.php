@@ -28,7 +28,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="restaurant.php">restaurant</a>
+                        <a class="nav-link" href="restaurant.php">Restaurantion et Evenement</a>
                     </li>
 
                     <li class="nav-item">
