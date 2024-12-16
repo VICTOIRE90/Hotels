@@ -22,7 +22,7 @@ require_once 'elements/navbar.php';
                     Vous organisez une réunion, une conférence ou une fête ? Nous vous proposons des plats variés et délicieux pour satisfaire tous vos invités.                     
                 </p>
             
-                <img src="./img/plat-1.jpg" alt="" class="img-fluid" style="width:700px;">
+                <img src="./img/plat-1.jpg" alt="" class="img-fluid mt-2 mb-2" style="width:700px;">
 
                 <p class="para">
                     Que ce soit pour un événement professionnel ou personnel, notre équipe est à votre service pour offrir une expérience culinaire unique.
@@ -48,7 +48,7 @@ require_once 'elements/navbar.php';
                     nous mettons à votre disposition des salles modernes, spacieuses et parfaitement équipées.
                 </p>
 
-                <img src="./img/fete-2.jpg" alt="" class="img-fluid mb-3" style="width:700px;">
+                <img src="./img/fete-2.jpg" alt="" class="img-fluid mb-2 mt-2" style="width:700px;">
 
                 <p class="para">
                     Notre salle de réunion offre un environnement calme et professionnel, 
@@ -58,13 +58,13 @@ require_once 'elements/navbar.php';
                     Enfin, si vous cherchez un espace festif, notre salle de fête apporte une ambiance chaleureuse et conviviale, 
                     parfaite pour célébre r vos moments précieux.
 
-                    <img src="./img/fete-3.jpg" alt="" class="img-fluid" style="width:700px;">
+                    <img src="./img/fete-3.jpg" alt="" class="img-fluid mt-2" style="width:700px;">
                 </p>
 
                 <a href="salle.php" class="">
                     <button class="btn btn-primary p-2">Voir nos salles</button>
                 </a>
-                
+
             </div>
         </div>
     </div>
