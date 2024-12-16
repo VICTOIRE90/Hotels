@@ -16,39 +16,56 @@ require_once 'elements/navbar.php';
 
     <div class="container">
         <div class="row">
-            <div class="col-12 col-lg-6 mt-3">
-                <img src="./img/room-1.jpg" alt="" class="img-fluid" style="width:700px;">
-                <h3>Une variété de recettes a votre gout</h3>
-                <p class="para">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis laborum soluta doloremque in ratione incidunt. Officiis laboriosam voluptates aliquid vitae modi? Laudantium necessitatibus vero a magni dolores! Molestiae, cum quod.
-                Obcaecati ipsam assumenda perferendis nulla. Recusandae facilis magni, quaerat, eligendi reiciendis illum veritatis velit aliquid cum molestias ratione omnis ad laborum quia mollitia non id impedit quam minus rem. Quod.
-                Quis provident non neque animi corrupti tempore, ea hic aliquam ipsam distinctio quam suscipit consequatur aliquid omnis perferendis totam! Libero, reiciendis natus. Voluptatem maxime, nisi excepturi facere dicta amet consectetur?
-                Doloremque, aliquam sunt facilis voluptate officiis qui soluta? Aliquam neque maxime laborum enim, obcaecati molestiae doloremque, quas, eos ratione architecto ad minus eveniet. Consequuntur quidem ut deserunt eaque, eligendi harum.
-                Ad facilis architecto veritatis blanditiis sit aliquam aut, dolorem odio tenetur cupiditate quos doloribus deleniti incidunt doloremque, voluptates corporis eos? Voluptatem, vel voluptas dignissimos iure a beatae facilis ducimus provident!
+            <div class="col-12 col-lg-6 col-md-6 mt-3">
+                <h6>Une variété de recettes a votre gout</h6>
+                <p class="para">                    
+                    Vous organisez une réunion, une conférence ou une fête ? Nous vous proposons des plats variés et délicieux pour satisfaire tous vos invités.                     
                 </p>
-                <a href="rest.php">
-                    <button class="btn btn-primary mt-0 mb-2 p-2">Voir nos plat</button>
+            
+                <img src="./img/plat-1.jpg" alt="" class="img-fluid" style="width:700px;">
+
+                <p class="para">
+                    Que ce soit pour un événement professionnel ou personnel, notre équipe est à votre service pour offrir une expérience culinaire unique.
+                    
+                    Réservez dès maintenant et faites de votre événement une réussite gourmande !
+                </p>
+
+                <img src="./img/plat-2.jpg" alt="" class="img-fluid" style="width:700px;">
+                
+                <a href="rest.php" class="p-2">
+                    <button class="btn btn-primary mt-2  mb-2 p-2">Voir nos plat</button>
                 </a>
             </div>
+        
 
-            <div class="col-12 col-lg-6 mt-3">
-                    <h3>Pour vos evenement: reunions, conférences et fêtes</h4>
-                    <p class="para">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis laborum soluta doloremque in ratione incidunt. Officiis laboriosam voluptates aliquid vitae modi? Laudantium necessitatibus vero a magni dolores! Molestiae, cum quod.
-                    Obcaecati ipsam assumenda perferendis nulla. Recusandae facilis magni, quaerat, eligendi reiciendis illum veritatis velit aliquid cum molestias ratione omnis ad laborum quia mollitia non id impedit quam minus rem. Quod.
-                    Quis provident non neque animi corrupti tempore, ea hic aliquam ipsam distinctio quam suscipit consequatur aliquid omnis perferendis totam! Libero, reiciendis natus. Voluptatem maxime, nisi excepturi facere dicta amet consectetur?
-                    Doloremque, aliquam sunt facilis voluptate officiis qui soluta? Aliquam neque maxime laborum enim, obcaecati molestiae doloremque, quas, eos ratione architecto ad minus eveniet. Consequuntur quidem ut deserunt eaque, eligendi harum.
-                    Ad facilis architecto veritatis blanditiis sit aliquam aut, dolorem odio tenetur cupiditate quos doloribus deleniti incidunt doloremque, voluptates corporis eos? Voluptatem, vel voluptas dignissimos iure a beatae facilis ducimus provident!
-                    </p>
+        
+            <div class="col-12 col-lg-6 col-md-6 mt-3">            
+                <h6>Des espaces uniques pour tous vos événements</h6>
 
-                    <img src="./img/room-2.jpg" alt="" class="img-fluid" style="width:700px;">
+                <p class="para">
+                    Organiser un événement réussi commence par le choix du lieu idéal. 
+                    Que ce soit pour une réunion professionnelle, une grande conférence ou une fête privée, 
+                    nous mettons à votre disposition des salles modernes, spacieuses et parfaitement équipées.
+                </p>
 
-                    <p class="para mt-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, tenetur exercitationem vel magni consectetur quod velit? Impedit magni natus porro, qui unde praesentium recusandae reprehenderit beatae sequi, adipisci illo laboriosam?</p>
+                <img src="./img/fete-2.jpg" alt="" class="img-fluid mb-3" style="width:700px;">
 
-                    <a href="salle.php">
-                        <button class="btn btn-primary mt-0 mb-2 p-2">Voir nos salles</button>
-                    </a>
-                </div>
+                <p class="para">
+                    Notre salle de réunion offre un environnement calme et professionnel, 
+                    idéal pour stimuler la créativité et favoriser les échanges. 
+                    Pour les grandes occasions, la salle de conférence est conçue pour accueillir un public plus large, 
+                    avec tout le nécessaire pour des présentations réussies. 
+                    Enfin, si vous cherchez un espace festif, notre salle de fête apporte une ambiance chaleureuse et conviviale, 
+                    parfaite pour célébre r vos moments précieux.
+
+                    <img src="./img/fete-3.jpg" alt="" class="img-fluid" style="width:700px;">
+                </p>
+
+                <a href="salle.php" class="">
+                    <button class="btn btn-primary p-2">Voir nos salles</button>
+                </a>
+                
+            </div>
         </div>
     </div>
 
