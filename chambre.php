@@ -171,7 +171,7 @@ require_once 'elements/navbar.php';
                 <span class="fw-bold">Réservez dès maintenant</span> pour vivre une expérience exceptionnelle où chaque détail compte. <span class="fw-bold">Votre satisfaction est notre priorité !</span>
             </h5>
 
-            <a class="btn btn-sm btn-primary rounded py-2 px-4" onclick="detectDeviceAndRedirect()">Reserver</a>
+            <a class="btn btn-sm btn-primary rounded py-2 px-4" onclick="detectDeviceAndRedirect()">Reserver Maintenant</a>
         </div>
     </div>
 </div>
