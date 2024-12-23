@@ -1,5 +1,5 @@
 <?php 
-$titre = "Accueil";
+$titre = "Restaurant & Evenement";
 require_once 'elements/header.php';
 require_once 'elements/navbar.php';
  ?>
