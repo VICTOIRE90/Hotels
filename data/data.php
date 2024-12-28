@@ -40,7 +40,7 @@ $imageLinks = getImageLinks();
 
 // Génération des chambres
 $chambres = [];
-for ($i = 1; $i <= 70; $i++) {
+for ($i = 1; $i <= 2; $i++) {
     $chambres[] = [
         "nom" => "Chambre {$i}",
         "numero" => $i,
