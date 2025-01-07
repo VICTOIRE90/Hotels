@@ -107,49 +107,40 @@ require_once 'elements/navbar.php';
                 <h6 class="section-title text-center text-primary text-uppercase">Nos chambres</h6>
                 <h1 class="mb-5">Explorer nos <span class="text-primary text-uppercase">chambres</span></h1>
             </div>
-            <div class="container-xxl py-5">
-                <div class="row g-4">
-                    <?php
-                    $chambres = json_decode(file_get_contents('data/chambres.json'), true);
-                    shuffle($chambres);
-                    $chambres = array_slice($chambres, 0, 3);
-
-                    foreach ($chambres as $chambre) {
-                        echo '<div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
-                            <div class="room-item shadow rounded overflow-hidden">
-                                <div class="position-relative">
-                                    <a href="Details/chambre1.php"><img class="img-fluid" src="' . $chambre['img'] . '" alt=""></a>
-                                    <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$' . $chambre['prix'] . '/Night</small>
-                                </div>
-                                <div class="p-4 mt-2">
-                                    <div class="d-flex justify-content-between mb-3">
-                                        <h5 class="mb-0">' . $chambre['nom'] . '</h5>
-                                        <div class="ps-2">';
-                      
-                        echo '          </div>
-                                    </div>
-                                    <div class="d-flex mb-3">
-                                        <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>' . $chambre['lit'] . ' Bed</small>
-                                        <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>' . $chambre['bath'] . ' Bath</small>
-                                        <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
-                                    </div>
-                                    <p class="text-body mb-3">' . $chambre['description'] . '</p>
-                                    <div class="d-flex justify-content-between">
-                                        <a class="btn btn-sm btn-primary rounded py-2 px-4" href="gallery.php">Gallerie</a>
-                                        <a class="btn btn-sm btn-dark rounded py-2 px-4" onclick="detectDeviceAndRedirect()">Reserver</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>';
-                    }
-                    ?>
-                </div>
-            </div>
             
+            <div class="row">
+                <div class="col-12 col-lg-6 col-md-6">
+                    <h4 class="d-flex justify-content-center">Choissez la chambre qui vous convient</h4>
+                    <p class="para">
+                        Plongez dans un univers de calme et de bien-être grâce à nos chambres conçues pour offrir une expérience unique.
+                        Que ce soit pour une nuit de détente, un séjour en famille, ou un moment de repos après une journée bien remplie,
+                        nos chambres allient confort et modernité pour répondre à toutes vos attentes.
+                    </p>
+
+                    <p class="para">
+                        Chaque chambre est équipée de tout le nécessaire pour rendre votre séjour agréable : un lit confortable, une salle de bain privée,
+                        Plongez dans un univers de calme et de bien-être grâce à nos chambres conçues pour offrir une expérience unique.
+                        Que ce soit pour une nuit de détente, un séjour en famille, ou un moment de repos après une journée bien remplie,
+                        nos chambres allient confort et modernité pour répondre à toutes vos attentes.                </p>
+
+                    <p class="para">
+                        Réservez dès maintenant votre chambre et laissez-vous séduire par une hospitalité qui place votre confort au cœur de nos priorités.
+                    </p>
+                </div>
+
+                <div class="col-12 col-lg-6 col-md-6">
+                    <img src="./img/room-1.jpg" alt="" srcset="" class="img-fluid wow zoomIn" data-wow-delay="0.4s" style="width: 100%; height: 200px; visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;">
+                    <img src="./img/room-2.jpg" alt="" srcset="" class="img-fluid mt-3 wow zoomIn" data-wow-delay="0.7s" style="width: 100%; height: 200px; visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;">
+
+                    <a class="btn btn-sm btn-primary rounded py-2 px-4 mt-2" href="./chambre.php">Gallerie<i class="fa fa-arrow-right ps-2 pt-2"></i></a>
+                </div>
+
+            </div>
+
         </div>
     </div>
     <!-- fin partie chambre -->
-
+    
     <!-- Services -->
     <div class="container-xxl py-5">
         <div class="container">

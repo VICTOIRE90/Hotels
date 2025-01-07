@@ -30,10 +30,10 @@ require_once 'elements/navbar.php';
         
 
         foreach ($chambresToShow as $chambre) {
-            echo '<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+            echo '<div class="col-lg-6 col-md-6 col-12 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
                     <div class="room-item shadow rounded overflow-hidden">
                         <div class="position-relative">
-                            <a href="Details/chambre1.php"><img class="img-fluid" src="' . $chambre['img'] . '" alt=""></a>
+                            <a href="Details/chambre1.php"><img class="img-fluid" style="width: 100%" src="' . $chambre['img'] . '" alt=""></a>
                             <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$' . $chambre['prix'] . '/Night</small>
                         </div>
                         <div class="p-4 mt-2">
@@ -49,9 +49,9 @@ require_once 'elements/navbar.php';
                                 <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                             </div>
                             <p class="text-body mb-3">' . $chambre['description'] . '</p>
-                            <div class="d-flex justify-content-between">
+                            <div class="d-flex justify-content-center align-items-center">
                                 <a class="btn btn-sm btn-primary rounded py-2 px-4" href="gallery.php?chambre_id=' . $chambre['numero'] . '">Gallerie</a>
-                                <a class="btn btn-sm btn-dark rounded py-2 px-4" href="javascript:void(0);" onclick="detectDeviceAndRedirect()">Reserver</a>
+                                <a class="btn btn-sm btn-dark rounded py-2 px-4 ms-5" href="javascript:void(0);" onclick="detectDeviceAndRedirect()">Reserver</a>
                             </div>
                         </div>
                     </div>

@@ -32,7 +32,7 @@ require_once 'elements/navbar.php';
 
                 <img src="./img/plat-2.jpg" alt="" class="img-fluid" style="width:700px;">
                 
-                <a href="rest.php" class="p-2">
+                <a href="restaurant.php" class="p-2">
                     <button class="btn btn-primary mt-2  mb-2 p-2">Voir nos plat</button>
                 </a>
             </div>
