@@ -43,6 +43,7 @@ require_once 'elements/navbar.php';
 
             echo '          </div>
                             </div>
+<<<<<<< HEAD
                             <div class="d-flex mb-3">
                                 <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>' . $chambre['lit'] . ' Lit</small>
                                 <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
@@ -51,6 +52,23 @@ require_once 'elements/navbar.php';
                             <div class="d-flex justify-content-center align-items-center">
                                 <a class="btn btn-sm btn-primary rounded py-2 px-4" href="gallery.php?chambre_id=' . $chambre['numero'] . '">Gallerie</a>
                                 <a class="btn btn-sm btn-dark rounded py-2 px-4 ms-5" href="javascript:void(0);" onclick="detectDeviceAndRedirect()">Reserver</a>
+=======
+                            <div class="mb-3">
+                                    <h3 class="mt-3 text-center text-uppercase">Chambre Deluxe à 100$ – Confort et services inclus</h3>
+                                    <p class="para" id="txt">
+                                    Plongez dans un confort absolu avec notre <span class="fw-bold">Chambre Deluxe</span> à seulement <span class="fw-bold">100$ par nuit. </span>
+                                    Idéale pour les séjours d’affaires ou de loisirs, cette chambre élégante et 
+                                    spacieuse vous offre tout ce dont vous avez besoin pour une expérience mémorable.
+                                    </p>
+
+                                <div>
+                                        <h4>Inclus dans votre séjour :</h4>
+                                        <i class="fa fa-wifi text-primary me-2 mb-4"></i><span class="fw-bold txt-1">Wi-Fi haut débit gratuit</span> pour rester connecté à tout moment.<br>
+                                        <i class="fa fa-coffee text-primary me-2 mb-4"></i><span class="fw-bold txt-1">Petit-déjeuner savoureux offert,</span> pour bien démarrer votre journée. <br>
+                                        <i class="fa fa-tv text-primary me-2 mb-4"></i><span class="fw-bold txt-1">Une télévision écran plat</span> pour vos moments de détente. <br>
+                                        <i class="fa fa-bath text-primary me-2"></i><span class="fw-bold txt-1">Une salle de bain privée luxueuse</span> équipée d’articles de toilette gratuits.
+                                </div>
+>>>>>>> 532848c7f00cfe6c257a1408f8a0c8aca3c52133
                             </div>
                         </div>
                     </div>
