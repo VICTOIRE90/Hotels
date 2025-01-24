@@ -1,19 +1,19 @@
 [
     {
-        "nom": "Chambre 1",
+        "nom": "CATEGORIE 1",
         "numero": 1,
-        "prix": 273,
-        "lit": 2,
+        "prix": 50,
+        "lit": 1,
         "description": "Les tons apaisants de la décoration contribuent à une ambiance relaxante.",
         "wifi": false,
         "stars": 1,
         "img": "..\/img\/room-2.jpg"
     },
     {
-        "nom": "Chambre 2",
+        "nom": "CATEGORIE 2",
         "numero": 2,
-        "prix": 122,
-        "lit": 3,
+        "prix": 100,
+        "lit": 1,
         "description": "Les intérieurs sont décorés avec goût, mélangeant modernité et charme traditionnel.",
         "wifi": true,
         "stars": 3,
