@@ -1,10 +1,10 @@
 <?php
 $titre = "Reservations";
-require_once 'elements/header.php';
+require_once __DIR__ . '/../elements/header.php';
 ?>
 
 
-<?php require_once 'elements/navbar.php'; ?>
+<?php require_once __DIR__ . '/../elements/navbar.php'; ?>
 /*
 <!-- Page Header Start -->
 <div class="container-fluid page-header p-0" style="background-image: url(img/carousel-2.jpg);">
@@ -17,12 +17,12 @@ require_once 'elements/header.php';
 <!-- Page Header End -->
 <div class="container-xxl py-5 mb-5" style="text-align: center;">
     <p id="desktop-message" class="animated slideInDown" style="display:none;"></p>
-        Scannez ce QR code avec votre téléphone pour ouvrir WhatsApp :
+    Scannez ce QR code avec votre téléphone pour ouvrir WhatsApp :
     </p>
     <canvas id="qrcode" class="animated zoomIn"></canvas>
 </div>
 
-   
+
 
 
 <script>
@@ -41,7 +41,7 @@ require_once 'elements/header.php';
             const qrCodeContainer = document.getElementById("qrcode");
             QRCode.toCanvas(qrCodeContainer, whatsappUrl, {
                 width: 350
-                
+
             }, function(error) {
                 if (error) console.error(error);
             });
@@ -50,4 +50,5 @@ require_once 'elements/header.php';
     }
 </script>
 
-<?php include 'elements/footer.php'; ?>
+<?php require_once __DIR__ . '/../elements/qrcode.php'; ?>
+<?php require_once __DIR__ . '/../elements/footer.php'; ?>

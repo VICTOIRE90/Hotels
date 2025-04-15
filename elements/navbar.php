@@ -42,4 +42,4 @@
 </nav>
 
 <!--fin-->
-<?php require_once "elements/qrcode.php"; ?>
+<?php require_once "../elements/qrcode.php"; ?>
