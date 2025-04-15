@@ -1,12 +1,10 @@
 <?php
 require __DIR__ . '/../vendor/autoload.php';
-
+$uri = $_SERVER['REQUEST_URI'];
 $router = new AltoRouter();
 
 // Définir les routes
-$router->map('GET', '/', function() {
-    require __DIR__ . '/homepage.php';
-});
+$router->map('GET', '/', '../pubic/homepage', 'home');
 
 $router->map('GET', '/chambres', function() {
     require __DIR__ . '/chambre.php';

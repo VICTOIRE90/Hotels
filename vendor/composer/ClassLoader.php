@@ -1,20 +1,5 @@
 <?php
 
-namespace Composer\Autoload;
-
-if (!function_exists('apcu_fetch')) {
-    function apcu_fetch($key, &$success = null) {
-        $success = false;
-        return false;
-    }
-}
-
-if (!function_exists('apcu_store')) {
-    function apcu_store($key, $value) {
-        return false;
-    }
-}
-
 /*
  * This file is part of Composer.
  *
@@ -24,6 +9,8 @@ if (!function_exists('apcu_store')) {
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
+
+namespace Composer\Autoload;
 
 /**
  * ClassLoader implements a PSR-0, PSR-4 and classmap class loader.
@@ -461,8 +448,7 @@ class ClassLoader
         if ($this->classMapAuthoritative || isset($this->missingClasses[$class])) {
             return false;
         }
-        if (null !== $this->apcuPrefix && function_exists('apcu_fetch')) {
-            $hit = false;
+        if (null !== $this->apcuPrefix) {
             $file = apcu_fetch($this->apcuPrefix.$class, $hit);
             if ($hit) {
                 return $file;
@@ -476,8 +462,8 @@ class ClassLoader
             $file = $this->findFileWithExtension($class, '.hh');
         }
 
-        if (null !== $this->apcuPrefix && function_exists('apcu_store')) {
-            apcu_store($this->apcuPrefix.$class, $file);
+        if (null !== $this->apcuPrefix) {
+            apcu_add($this->apcuPrefix.$class, $file);
         }
 
         if (false === $file) {
