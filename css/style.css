@@ -118,6 +118,11 @@
     border-radius: 2px;
 }
 
+/* Rounded borders for cards and link buttons */
+.card, .btn {
+    border-radius: 0.75rem !important;
+}
+
 
 /*** Navbar ***/
 .navbar-nav .nav-link{

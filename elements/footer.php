@@ -1,5 +1,3 @@
-<!-- Body content -->
-
 <div class="container-fluid bg-dark text-light footer wow fadeIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
     <div class="container pb-5">
         <div class="row g-5">
@@ -11,17 +9,17 @@
                 </h6>
                 <p class="mb-2 text-foot"><i class="fa fa-map-marker-alt me-3"></i>
                     <font style="vertical-align: inherit;">
-                        <font style="vertical-align: inherit;">1011 Route KIPOPO, Lubumbashi, RD Congo</font>
+                        <font style="vertical-align: inherit;">540b Rte Kipopo, Lubumbashi</font>
                     </font>
                 </p>
                 <p class="mb-2 text-foot"><i class="fa fa-phone-alt me-3"></i>
                     <font style="vertical-align: inherit;">
-                        <font style="vertical-align: inherit;">+243 97 5481 773</font>
+                        <font style="vertical-align: inherit;">+243 818 584 144</font>
                     </font>
                 </p>
                 <p class="mb-2 text-foot"><i class="fa fa-envelope me-3"></i>
                     <font style="vertical-align: inherit;">
-                        <font style="vertical-align: inherit;">COSTA RITA.com</font>
+                        <font style="vertical-align: inherit;"><a href="contact.php">COSTA RITA.com</a></font>
                     </font>
                 </p>
                 <div class="d-flex pt-2">
@@ -65,10 +63,12 @@
             <div class="row">
                 <div class="col-12 text-center text-md-center mb-3 mb-md-0">
                     <font style="vertical-align: inherit;">
-                        
-                    </font><a class="border-bottom" href="index.php" aria-hidden="true"><font style="vertical-align: inherit;">
+
+                    </font><a class="border-bottom" href="index.php" aria-hidden="true">
+                        <font style="vertical-align: inherit;">
                             <font style="vertical-align: inherit;">©COSTA RITA</font>
-                        </font></a>
+                        </font>
+                    </a>
                     <font style="vertical-align: inherit;">
                         <font style="vertical-align: inherit;"> , tous droits réservés.
                 </div>

@@ -26,16 +26,16 @@
                 confirmButtonText: 'Ouvrir WhatsApp',
                 reverseButtons: true
             }).then((result) => {
-                    if (result.isConfirmed) {
-                        // Rediriger vers WhatsApp si le bouton "WhatsApp" est cliqué
-                        window.location.href = whatsappUrl;
-                    }
+                if (result.isConfirmed) {
+                    // Rediriger vers WhatsApp si le bouton "WhatsApp" est cliqué
+                    window.location.href = whatsappUrl;
+                }
             });
         });
     }
 
     function detectDeviceAndRedirect() {
-        const whatsappNumber = "+243975939378"; // Remplacez par votre numéro WhatsApp
+        const whatsappNumber = "+243818584144"; // Remplacez par votre numéro WhatsApp
         const message = "Bonjour, je souhaite avoir plus d'informations.";
         const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
@@ -55,6 +55,4 @@
         });
     }
     // Appeler la fonction lorsque la page est chargée
-
 </script>
-

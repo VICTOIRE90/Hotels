@@ -21,18 +21,21 @@
                         <a class="nav-link" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                       <buttons class="nav-link" onclick="detectDeviceAndRedirect()">Reservation</buttons>
+                        <a class="nav-link" onclick="detectDeviceAndRedirect()">Reservation</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.php">A Propos</a>
+                        <a class="nav-link" href="chambre.php">Chambres</a>
                     </li>
 
                     <li class="nav-item">
                         <a class="nav-link" href="Evenement.php">Restaurantion et Evenement</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.php">Contact</a>
+                    </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="chambre.php">Chambres</a>
+                        <a class="nav-link" href="about.php">A Propos</a>
                     </li>
 
                 </ul>
@@ -42,4 +45,4 @@
 </nav>
 
 <!--fin-->
-<?php require_once "../elements/qrcode.php"; ?>
+<?php require_once "elements/qrcode.php"; ?>

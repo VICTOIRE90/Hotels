@@ -34,9 +34,11 @@ if (!isset($titre)) {
     <!-- Template Stylesheet -->
     <link href="../css/style.css" rel="stylesheet">
 
-    <title><?= $titre ?></title>
+    <title><?= $title ?></title>
 </head>
 
-<body <?php if ($titre == "Contact" || $titre == "Reservations") {
+<body 
+
+<?php if ($titre == "Contact" || $titre == "Reservations") {
             echo 'onload="detectDeviceAndRedirect()"';
         } ?>
